@@ -1,0 +1,205 @@
+#search-main-fixed
+	width 100%
+	height 200px
+	background #ccc
+	position fixed
+	z-index 20
+	top 0
+	display none
+#search-main
+	width 100%
+	background #f5f5f5;
+	background -moz-linear-gradient(top,  #f5f5f5 0%, #e2e3e5 100%);
+	background -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5f5f5), color-stop(100%,#e2e3e5));
+	background -webkit-linear-gradient(top,  #f5f5f5 0%,#e2e3e5 100%);
+	background -o-linear-gradient(top,  #f5f5f5 0%,#e2e3e5 100%);
+	background -ms-linear-gradient(top,  #f5f5f5 0%,#e2e3e5 100%);
+	background linear-gradient(to bottom,  #f5f5f5 0%,#e2e3e5 100%);
+	border none
+	box-shadow inset 1px 3px 5px #ccc,inset 1px -1px 5px #ccc
+	.menu
+		width 942px
+		margin auto
+		> div
+			float left
+			position relative
+			padding 10px 30px 10px 10px
+			border-right 1px solid #ccc
+			cursor pointer
+			&.act
+				display block
+				background #fff
+		span
+			display block
+			&:first-child
+				color #839c5e
+				margin 0 0 5px 0
+		.arrow-down
+			background url(routImg+"icon-layout.png") headIconMainmenu no-repeat
+			height 7px
+			position absolute
+			right 4px
+			top 30px
+			width 10px
+			&:hover
+				background-position headIconMainmenuAcount
+	#more-option
+		span
+			color #839c5e
+			&:first-child
+				margin 3px 0 0 0
+	.list
+		position absolute
+		top 0
+		background #fff
+		border 1px solid #ccc
+		left -1px
+		z-index 5
+		border-radius 0 0 5px 5px
+		top 49px
+		border-top 0
+		width 100%
+		display none
+		box-shadow 2px 2px 6px #B6B6B6
+	.act
+		.list
+			display block
+	#estate.act
+		li
+			padding 3px 5px
+			transition all 0.3s ease
+			&:hover
+				background #fff1b9
+			a
+				text-decoration none
+	#type-property
+		width 170px
+	#type-property.act
+		li
+			margin 10px
+		input[type="checkbox"]
+			margin 0 5px 0 0
+		.action
+			text-align center
+	#location
+		width 150px
+	#location.act
+		.list
+			width 210%
+			padding 20px 10px 10px 10px
+		.slt-group
+			border-bottom 1px solid #ccc
+			margin 5px 0
+		.control-group
+			margin-bottom 10px
+			float left
+		.control-label
+			width 114px
+			float left
+			font-size 12px
+			line-height 23px
+		.controls
+			width 270px
+			float left
+		.tags
+			display block
+		.action
+			text-align center
+			margin 10px 0
+		select
+			width 100%
+		.textboxlist-bits
+			padding 0
+	#more-option.act
+		.list
+			width 997px
+			left -905px
+		.first-row
+			border-bottom 1px solid #ccc
+		span
+			&:first-child
+				margin 5px 0 0 0
+		.group
+			float left
+			border-right 1px solid #ccc
+			padding 16px
+			width 132px
+			&:nth-child(2n)
+				background #fafbff
+			&:nth-child(5)
+				width 136px
+				ul 
+					height 129px
+					text-indent 0spx
+					overflow auto
+			&:last-child
+				border-right 0
+			ul
+				text-indent -5px
+			li
+				margin 10px 0
+				font-size 12px
+			input[type=radio],input[type=checkbox]
+				margin 0 5px 0 0
+			input[type=text]
+				width 90px
+		.second-row
+			ul
+				margin 0 0 0 7px
+			h3
+				padding 10px
+				margin 0
+			li
+				float left
+				margin 5px
+				width 188px
+				font-size 12px
+			input[type=checkbox]
+				margin 0 5px 0 0
+		.action
+			text-align center
+			padding 10px
+	#price
+		width 120px
+	#price.act
+	#room.act
+	#toilet.act
+		.list
+			width 140px
+		li
+			margin 10px
+		input[type="checkbox"]
+			margin 0 5px 0 0
+		.action
+			text-align center
+	#price.act
+		.list
+			width 160px
+#result-search
+	width 100%
+	box-shadow 1px 1px 5px #ccc
+	padding 0 0 15px 0
+	.first-row
+	.second-row
+		width 928px
+		margin auto
+		padding 10px 0 0 0
+	.textboxlist-bits
+		width 739px
+		padding 0
+	select
+	.textboxlist-bits
+	.btn-urb
+	.result
+	.messages
+		float left
+	.messages
+		font-size 12px
+		color #939393
+		width 377px
+		padding 0 0 0 10px
+	.result
+		width 285px
+		text-align right
+	.textboxlist-bit-box
+		margin-bottom 8px

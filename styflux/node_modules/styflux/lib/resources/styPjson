@@ -1,0 +1,27 @@
+{
+  "name": "styflux",
+  "version": "0.1.7",
+  "description": "Framework CSS basado en Stylus",
+  "author": {
+    "name": "EvangelizandoLaWeb"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "styflux": "./bin/styflux"
+  },
+  "main": "./lib/styflux",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/pinguxx/node-bowser.git"
+  },
+  "engines": {
+    "node": "> 0.2.0"
+  },
+  "keywords": [
+    "framework css stylus front"
+  ],
+  "readme": "# Styflux\r\n\r\nUn framework de desarrollo Frontend.",
+  "readmeFilename": "README.md",
+  "_id": "styflux@0.1.6",
+  "_from": "styflux@"
+}

@@ -1,0 +1,1585 @@
+/**
+* Resources Section
+* @class Resources
+* @module base.css
+*/
+
+/**
+@module resources.css
+@submodule Style Libre: Van los estilos libres
+*/
+.fix-bg
+	position relative
+	z-index 2
+.infprint
+	display block
+	li
+		color #CC0000
+.infview
+	display inline-block
+	*display inline
+	line-height 15px
+	padding-left 28px
+	position relative
+	vertical-align top
+	*zoom 1
+	span
+		background url(routImg+"icon-layout.png") IconInfview
+		height 14px
+		left 0
+		position absolute
+		top 0
+		width 22px
+.btn-vermas
+	background #F2F3F5
+	border 1px solid #E8E8E8
+	color #5F8526
+	display block
+	font-weight 700
+	line-height 40px
+	outline: 0 none !important
+	text-align center
+	&:hover
+		background #d7d6d6
+		color #5F8526
+		text-decoration none
+	&.loading
+		background url(routImg+"loading.gif") center center no-repeat #e8e8e8
+		text-indent -9999px
+.help-obl
+	color #CC0000
+.control
+	text-align center
+.rcv-alert
+	background-color #F2F3F5
+	border 1px solid #E8E8E8
+	color #333
+	font-size 12px
+	line-height 14px
+	margin-top 10px
+	padding 12px 0 12px 10px
+	.ioption
+		font-size 12px
+		line-height 16px
+		input[type="checkbox"]
+			top 1px
+			*top -1px
+.textgray
+	color #999
+	font-size 12px
+	line-height 11px
+.hide
+	display none
+.box-lesswhite
+	background #FAFBFE
+	border 1px solid #E8E8E8
+	margin-bottom 30px
+	padding 10px
+/**
+@module resources.css
+@submodule Opciones del admin : Contenedor de la opciones que van debajo del titulo
+*/
+.opts-hadmin
+	padding-bottom 12px
+	p
+		color #666
+		float left
+		margin 0
+		padding-top 7px
+	.box-left
+		float left
+		.btn-urb,.btn-gray
+			float left
+		.box-ck, .select-line
+			float left
+		.btn-gray + .btn-gray
+			margin 0 0 0 10px
+	.box-rigth
+		float right
+		.btn-urb
+			margin-left 10px
+	.select-line
+		float right
+		margin-right 10px
+		label
+			color #999
+			font-size 13px
+		.sel-xsmall
+			font-size 13px
+			height 25px
+			line-height 25px
+			margin-left 5px
+	.btn-urb,.btn-gray
+		float right
+	.btn-urb + .btn-gray
+		margin-right 10px
+	.btn-gray + .btn-gray
+		margin-right 10px
+/**
+@module resources.css
+@submodule Urbania Simple Title: Titulos de Urbania con globos al lado izquierdo
+*/
+.urb-stitle
+	border-bottom 1px solid #CCC
+	font-size 20px
+	line-height 24px
+	margin 0 0 12px
+	padding-bottom 3px
+	&.font28
+		font-size 28px
+		line-height 30px
+		padding-bottom 7px
+.subtit
+	font-size 19px
+	line-height 19px
+/**
+@module resources.css
+@submodule Urbania Title: Titulos de Urbania con globos al lado izquierdo
+*/
+.urb-title
+	border-bottom 1px solid #CCC
+	font-size 20px
+	line-height 24px
+	padding-bottom 4px
+	position relative
+	span
+		background-image url(routImg+"icon-layout.png")
+		background-repeat no-repeat
+		height 23px
+		left -24px
+		position absolute
+		top 0
+		width 16px
+		&.bg-fb
+			background-position homeIconFb
+		&.bg-tw
+			background-position homeIconTw
+/**
+@module resources.css
+@submodule Header admin: Contenedor de los titulos en el administrador
+*/
+.head-adm
+	border-bottom 1px solid #ccc
+	margin 0 0 15px
+	padding-bottom 10px
+	*zoom 1
+	&:before,&:after
+		display table
+		content ""
+		line-height 0
+	&:after
+		clear both
+	h2
+		font 20px/22px family2
+		margin-bottom 10px
+.lnk-return
+	top 8px
+	position absolute
+	right 0
+	z-index 1
+.post-relt
+	position relative
+/**
+@module resources.css
+@submodule Formulario Filtro Administrador
+*/
+.calend
+	position relative
+	input[type="text"]
+		font-family family1
+		padding-left 35px
+		width 168px
+	.vcalendar
+		background url(routImg+"icon-publicacion.png") actionIconCalendar no-repeat
+		height 21px
+		left 10px
+		position absolute
+		top 5px
+		width 19px
+.just-search
+	margin-bottom 10px
+	*zoom 1
+	&:before,&:after
+		display table
+		content ""
+		line-height 0
+	&:after
+		clear both
+	.controls
+		float left
+		position relative
+		& + .controls
+			padding-left 10px
+	input[type="text"]
+		font-family family1
+		font-size 14px
+		height 20px
+		line-height 20px
+		padding-left 5px
+		width 420px
+.filter-adm
+	background #F2F3F5
+	border-radius 7px
+	padding 10px
+	*zoom 1
+	&:before,&:after
+		display table
+		content ""
+		line-height 0
+	&:after
+		clear both
+	.controls
+		float left
+		position relative
+		& + .controls
+			padding-left 10px
+	input[type="text"]
+		font-family family1
+		font-size 14px
+		height 20px
+		line-height 20px
+		padding-left 30px
+		width 720px
+	.btn-urb
+		font-size 17px
+		height 30px
+		line-height 22px
+		width 150px
+	.vglass
+		background url(routImg+"icon-layout.png") IconVglass no-repeat
+		height 20px
+		left 5px
+		position absolute
+		top 6px
+		width 21px
+.detail-yellowinfo
+	background #fffeef
+	border 1px solid #E8E8E8
+	padding 15px
+	margin-bottom 15px
+/**
+@module resources.css
+@submodule Buscador para Portadas
+*/
+.hfilter-adm
+	background #6C8764
+	border-radius 10px
+	margin-bottom 40px
+	padding 20px 30px
+	*zoom 1
+	&:before,&:after
+		display table
+		content ""
+		line-height 0
+	&:after
+		clear both
+	input[type="text"]
+		font-family family1
+		font-size 14px
+		height 20px
+		line-height 20px
+		padding-left 30px
+		width 620px
+	select
+		background #FFF
+		height 33px
+		padding 6px
+		width 160px
+	.vglass
+		background url(routImg+"icon-layout.png") IconVglass no-repeat
+		height 20px
+		left 5px
+		position absolute
+		top 5px
+		width 21px
+.search-data
+	float left
+	margin-right 25px
+	width 660px
+	.cgroup-inline
+		margin 15px 0 0
+		.controls
+			float left
+	.controls
+		position relative
+.selectbox
+	float left
+	margin-left 20px
+	input[type="text"]
+		font-family family1
+		font-size 14px
+		height 20px
+		line-height 20px
+		padding-left 10px
+		width 140px
+		&.input-district
+			padding-left 30px
+			width 260px
+	.varrow
+		background url(routImg+"icon-layout.png") IconVarrow no-repeat
+		height 20px
+		right 9px
+		position absolute
+		top 5px
+		width 14px
+	&:first-child
+		margin-left 0
+/**
+@module resources.css
+@submodule Order table: Flechas de ordenamiento para los menus
+*/
+.tbl-order
+	display inline-block
+	*display inline
+	height 20px
+	padding 10px 0 0 5px
+	vertical-align middle
+	*zoom 1
+	a
+		background-image url(routImg+"icon-layout.png")
+		display inline-block
+		*display inline
+		height 10px
+		margin-left 2px
+		vertical-align top
+		width 12px
+		*zoom 1
+		&:first-child
+			margin 0
+	.up
+		background-position -432px -110px
+		&:hover
+			background-position -408px -110px
+		&.act
+			background-position -420px -110px
+			cursor default
+	.down
+		background-position -432px -100px
+		&:hover
+			background-position -408px -100px
+		&.act
+			background-position -420px -100px
+			cursor default
+/**
+@module resources.css
+@submodule List checks: Utilitario que sirve para hacer un listado de checks de 5 columnas
+*/
+.list-chk
+	*zoom 1
+	&:before,&:after
+		display table
+		content ""
+		line-height 0
+	&:after
+		clear both
+	li
+		float left
+		width 182px
+		&:nth-child(n+6)
+			margin-top 10px
+	input[type="radio"],input[type="checkbox"]
+		*top 0
+	&.lchk-4
+		li
+			width 228px
+			&:nth-child(n+5)
+				margin-top 10px
+/**
+@module resources.css
+@submodule Estados de pago
+*/
+.stpaid-ped
+	color #CC0000
+.stpaid-act
+	color #5F8526
+.bg-stpaidAct
+	td
+		background #FCF4DB
+.bg-stpaidOver
+	td
+		background #F2F3F5
+		color #666
+.expire
+	font-size 9px
+	line-height 9px
+/**
+@module resources.css
+@submodule Iconos de action para el admin
+*/
+.action-icons
+	*display inline
+	*zoom 1
+	background-image url(routImg+"icon-publicacion.png")
+	background-repeat no-repeat
+	display inline-block
+	font-size 0px
+	height 21px
+	line-height 0px
+	vertical-align middle
+	width 20px
+	& + .action-icons
+		margin-left 10px
+	&.edit
+		background-position actionIconEdit
+		height 21px
+		width 18px
+		&:hover
+			background-position actionIconEditHover
+	&.highlight
+		background-position actionIconHighlight
+		width 18px
+		&:hover
+			background-position actionIconHighlightHover
+		&.act
+			background-position actionIconNoHighlight
+			&:hover
+				background-position actionIconNoHighlightHover
+			&.bloq
+				background-position actionIconNoHighlightDis
+				&:hover
+					background-position actionIconNoHighlightDis
+		&.bloq
+			background-position actionIconHighlightDis
+			&:hover
+				background-position actionIconHighlightDis
+	&.givedown
+		background-position actionIconGivedown
+		width 18px
+		&:hover
+			background-position actionIconGivedownHover
+	&.publishads
+		background-position actionIconPublicAds
+		width 18px
+		&:hover
+			background-position actionIconPublicAdsHover
+		&.dis
+			background-position actionIconPublicAdsDisabled
+			cursor default
+	&.republish
+		background-position actionIconRepublish
+		&:hover
+			background-position actionIconRepublishHover
+	&.delete
+		background-position actionIconDelete
+		&:hover
+			background-position actionIconDeleteHover
+	&.note
+		background-position actionIconNote
+		&:hover
+			background-position actionIconNoteHover
+	&.message
+		background-position actionIconMessage
+		&:hover
+			background-position actionIconMessageHover
+	&.share
+		background-position actionIconShare
+		&:hover
+			background-position actionIconShareHover
+	&.calendar
+		background-position actionIconCalendar
+		width 19px
+		&:hover
+			background-position actionIconCalendarHover
+	&.properties
+		background-position actionIconProperty
+		&:hover
+			background-position actionIconPropertyHover
+	&.play
+		background-position actionIconPlay
+		&:hover
+			background-position actionIconPlayHover
+	&.pending
+		background-position actionIconPending
+		&:hover
+			background-position actionIconPendingHover
+	&.addprinted
+		background-position actionIconAddPrinted
+		&:hover
+			background-position actionIconAddPrintedHover
+	&.cancelprinted
+		background-position actionIconCancelPrinted
+		&:hover
+			background-position actionIconCancelPrintedHover
+	&.seeinfo
+		background-position actionIconSeeinfo
+		&:hover
+			background-position actionIconSeeinfoHover
+	&.seeInterested
+		background-position actionIconSeeInterested
+		&:hover
+			background-position actionIconSeeInterestedHover
+	&.printinfo
+		background-position actionIconPrintInfo
+		&:hover
+			background-position actionIconPrintInfoHover
+.action-iconsInm
+	float right
+	width 50px
+	span
+		background url(routImg+"icon-publicacion.png") iconInmShared
+		float left
+		height 16px
+		width 20px
+		&.redInm
+			background-position iconInmSharedRed
+		&.greenInm
+			background-position iconInmSharedGreen
+	a
+		background url(routImg+"icon-publicacion.png") actionIconInmShare
+		float right
+		font-size 0
+		height 21px
+		margin-top 25px
+		width 20px
+		&:hover
+			background-position actionIconInmShareHover
+.box-highlight
+	background #FFFBA8
+	margin-top 10px
+	padding 5px 10px
+	.text
+		display inline-block
+		margin-left 10px
+	.highlight:hover
+		background-position actionIconHighlight
+.blog-img
+	text-align center
+	img
+		height 169px
+.blog-imgch
+	text-align center
+	img
+		height 82px
+.bline
+	border-bottom 1px solid #ccc
+	color #000
+	font-size 17px
+	line-height 17px
+	padding-bottom 6px
+/**
+@module resources.css
+@submodule Size Varied: estilos como paddings, margins,anchos que se usan en ocaciones en la web
+*/
+.nopad
+	padding 0
+.mt30mbt0
+	margin 30px 0 0
+.pb50
+	padding-bottom 50px
+.mb30
+	margin-bottom 30px
+.mb20
+	margin-bottom 20px
+.mb15
+	margin-bottom 15px
+.mb10
+	margin-bottom 10px
+.mb40
+	margin-bottom 40px
+.mt30
+	margin-top 30px
+.mt32
+	margin-top 32px
+.mt24
+	margin-top 24px
+.mt50
+	margin-top 50px
+.ml10
+	margin-left 10px
+.w322
+	width 338px
+.green
+	color #5F8526
+/**
+@module resources.css
+@submodule Position styles: estilos de posicionamiento como floats, text-aligns
+*/
+.ftleft
+	float left
+.ftright
+	float right
+/**
+* Popups Section
+* @class Popups
+* @module portada.css
+*/
+.popup-addfavorite
+	background #fff
+	padding 20px
+	width 250px
+	p
+		color #333
+		line-height 15px
+	textarea
+		margin-bottom 15px
+		width 230px
+.popup-box
+	background #fff
+	width 460px
+.report-adv
+	p
+		color #333
+		font-size 14px
+		line-height 15px
+		padding-top 10px
+	.controls
+		margin-bottom 10px
+	.control-label
+		line-height 25px
+		padding-top 15px
+.reason-message
+	border-bottom 1px solid #ccc
+	margin-bottom 20px
+	padding-bottom 10px
+	*zoom 1
+	&:before,&:after
+		display table
+		content ""
+		line-height 0
+	&:after
+		clear both
+.reason-img
+	float left
+	width 140px
+.reason-tit
+	float left
+	margin-left 15px
+	width 280px
+	h2
+		color #5F8727
+		font 700 14px/15px family1
+	p
+		color #000
+		font-weight 700
+		margin-bottom 0
+	span
+		color #CC0000
+.formMessage
+	p
+		color #666
+	.control-label
+		display inline-block
+		line-height 25px
+		margin-bottom 0
+		vertical-align top
+		width 140px
+		*display inline
+		*zoom 1
+	.controls
+		display inline-block
+		vertical-align top
+		width 310px
+		*display inline
+		*zoom 1
+	input
+		width 293px
+	textarea
+		margin-bottom 15px
+		width 293px
+.terms
+	background #F2F3F5
+	color #666
+	margin-bottom 0
+	padding 12px 0
+	text-align center
+/**
+* Alerts
+* @class Popups
+* @module layout.css
+*/
+.box-alert
+	background-color #FFEFB7
+	border 1px solid #FFB70F
+	border-radius 4px
+	color #333
+	font-size 13px
+	line-height 16px
+	margin 20px auto 0
+	padding 8px 0
+	text-align center
+	width 938px
+	&.error
+		background-color #f2dede
+		border 1px solid #eed3d7
+	a
+		color #d19301
+		float right
+		font 700 14px/15px family1
+		margin-right 15px
+		text-decoration none
+		&.close
+			color #ca4659
+/**
+* Blog Urbania
+* @class Blog Urbania
+* @module layout.css
+*/
+.txtgray
+	color #666
+	font-family family2
+	font-size 15px
+	line-height 16px
+.box-perfil
+	background #fff
+	border 1px solid #ececec
+.border-gray
+	.grids-4
+		background #fff
+		border 1px solid #ececec
+		width 298px
+.blog-box
+	margin-top 30px
+	.urb-title
+		position relative
+		*zoom 1
+		&:before,&:after
+			display table
+			content ""
+			line-height 0
+		&:after
+			clear both
+		span
+			background-image url(routImg+"icon-layout.png")
+			background-repeat no-repeat
+			height 23px
+			left -24px
+			position absolute
+			top 0
+			width 16px
+		.textgray
+			color #666
+			float left
+			font-family family2
+			font-size 15px
+			line-height 16px
+			margin-left 5px
+			padding-top 5px
+.blog-content
+	padding 15px
+	h2
+		color #5F8626
+		font 20px/21px family1
+		margin-bottom 3px
+	p
+		font-size 12px
+		line-height 15px
+		margin-bottom 15px
+		word-wrap break-word
+		&:last-of-type
+			margin-bottom 4px
+.hgt-blog
+	height 320px
+.full-text
+	h2
+		color #000
+		font 700 14px/16px family1
+		margin-bottom 10px
+		padding-top 10px
+	p
+		font-size 12px
+		line-height 16px
+		margin-bottom 0
+		padding-bottom 10px
+	ul
+		margin-left 15px
+		padding-bottom 10px
+		li
+			line-height 16px
+			list-style-type disc
+			padding-bottom 5px
+/**
+* Filtro de Busqueda Section
+* @class Filtro de Busqueda
+* @module portada.css
+*/
+#fixed-search-main
+	background #fff
+	position fixed
+	display none
+	width 100%
+	z-index 20
+	top 0px
+	.head-social
+		float right
+		margin 6px 0 0 0 
+	.textboxlist-bits
+		&.result-search
+			float none
+			margin 10px auto
+			width 924px
+.fixed-tags
+	width 100%
+	box-shadow 0px 2px 5px #ccc
+.fixed-logos-social
+	margin auto
+	padding 10px 0
+	width 942px
+.fixed-logo-min
+	background url(routImg+"icon-layout.png") logoUrbmedium
+	float left
+	font-size 0
+	height 24px
+	width 100px
+.fixed-search-scroll
+	position fixed
+	top 44px
+	z-index 3
+.fixed-tag-scroll
+	border-bottom 1px solid #ECE8E8
+	box-shadow 0px 2px 3px #a6a5a5
+	position fixed
+	top 76px
+	z-index 2
+.search-main
+	background #f5f5f5;
+	background -moz-linear-gradient(top,  #f5f5f5 0%, #e2e3e5 100%);
+	background -ms-linear-gradient(top,  #f5f5f5 0%,#e2e3e5 100%);
+	background -o-linear-gradient(top,  #f5f5f5 0%,#e2e3e5 100%);
+	background -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5f5f5), color-stop(100%,#e2e3e5));
+	background -webkit-linear-gradient(top,  #f5f5f5 0%,#e2e3e5 100%);
+	background linear-gradient(to bottom,  #f5f5f5 0%,#e2e3e5 100%);
+	border-top 1px solid #ccc
+	border-bottom 1px solid #ECE8E8
+	box-shadow inset 1px 2px 6px #ccc,inset 1px -1px 5px #ccc
+	width 100%
+	.menu
+		width 942px
+		margin auto
+		> div
+			border-left 1px solid #d1d0d0
+			border-right 1px solid #fff
+			float left
+			position relative
+			.showMenu
+				a
+					color #5F8626
+					display block
+					padding 10px
+					&:hover
+						text-decoration none
+			&.act
+				display block
+				background #fff
+			&:last-child
+				border-right 1px solid #d1d0d0
+		.arrow-down
+			background url(routImg+"icon-layout.png") icoViewListSearch no-repeat
+			float right
+			height 8px
+			margin-top 2px
+			width 12px
+			&.up
+				background-position icoViewListSearchUp
+/**
+* Desplegable Filtro de Busqueda Section
+*/
+.menu-listoptions
+	background #fff
+	border 1px solid #ccc
+	border-radius 0 0 5px 5px
+	border-top 0
+	box-shadow 1px 3px 2px #B6B6B6
+	display none
+	left -1px
+	padding 10px 10px 15px
+	position absolute
+	top 32px
+	width 100%
+	z-index 5
+	.control
+		margin-top 10px
+	input[type="checkbox"],[type="radio"]
+		margin -2px 5px 0 0
+.list
+	li
+		padding 5px 0
+	label
+		line-height 14px
+.localizado
+	width 100px
+	.menu-listoptions
+		width 81px
+.tofechas
+	width 80px
+.estate
+	width 80px
+	.menu-listoptions
+		width 100px
+.type-property
+	width 170px
+	.menu-listoptions
+		width 190px
+.location
+	width 150px
+	.menu-listoptions
+		width 440px
+.slt-group
+	border-bottom 1px solid #ccc
+	margin 5px 0 10px
+	label
+		color #333
+		float left
+		font-size 12px
+		line-height 30px
+		margin-bottom 0
+		width 114px
+	.control-group
+		float left
+		margin-bottom 10px
+	.controls
+		float left
+		width 270px
+	.tags
+		display block
+	.action
+		text-align center
+		margin 10px 0
+	select
+		width 100%
+	.textboxlist-bits
+		padding 0
+.price
+	width 130px
+	.menu-listoptions
+		width 190px
+	.cgroup-inline
+		margin-bottom 7px
+	input[type=text]
+		height 18px
+		padding 4px
+		width 75px
+.room
+	width 150px
+	.menu-listoptions
+		width 131px
+.toilet
+	width 100px
+	.menu-listoptions
+		width 81px
+.more-option
+	width 148px
+	span
+		color #839c5e
+	h3
+		font 400 14px/16px family1
+	.menu-listoptions
+		left -793px
+		padding 0 0 10px 0
+		width 940px
+		li
+			padding 10px 0 5px
+.price,
+.room,
+.estate,
+.localizado,
+.type-property,
+.location,
+.toilet,
+.more-option
+	&.act
+		.menu-listoptions
+			display block
+.row
+	&.toBeach
+		.group
+			width 110px
+			.cgroup-inline
+				margin-bottom 7px
+			&:nth-child(5)
+				width 180px
+				input[type=text]
+					height 18px
+					padding 4px
+					width 70px
+			&:nth-child(6)
+				border-right 0
+				width 135px
+			&:nth-child(7),&:nth-child(8)
+				width 145px
+			&:nth-child(9)
+				width 181px
+				input[type=text]
+					height 18px
+					padding 4px
+					width 170px
+			&:last-child
+				border-bottom 1px solid #ccc
+				border-right 0
+				height 230px
+				width 346px
+				li
+					float left
+					white-space nowrap 
+					width 170px
+				label
+					font-size 12px
+					line-height 14px
+	&.toTourist
+		.group
+			width 110px
+			.cgroup-inline
+				margin-bottom 7px
+			&:nth-child(4)
+				width 145px
+			&:nth-child(5)
+				width 145px
+				input[type=text]
+					height 18px
+					padding 4px
+					width 70px
+			&:nth-child(6)
+				border-right 0
+				width 135px
+			&:nth-child(8)
+				width 181px
+				input[type=text]
+					height 18px
+					padding 4px
+					width 170px
+			&:last-child
+				border-bottom 1px solid #ccc
+				border-right 0
+				height 230px
+				width 557px
+				li
+					float left
+					padding 5px 0 4px
+					white-space nowrap 
+					width 185px
+				label
+					font-size 12px
+					line-height 14px
+.group
+	border-bottom 1px solid #ccc
+	border-right 1px solid #ccc
+	float left
+	height 230px
+	padding 15px
+	width 90px
+	&:nth-child(2n)
+		background #fafbff
+	&:nth-child(3)
+		width 130px
+	&:nth-child(4)
+		width 130px
+	&:nth-child(5)
+		width 180px
+		ul 
+			text-indent 0spx
+	&:nth-child(6)
+		border-right 0
+		width 135px
+	&:last-child
+		border-right 0
+		border-bottom 0
+		height auto
+		width 910px
+		li
+			float left
+			white-space nowrap 
+			width 180px
+		label
+			font-size 12px
+			line-height 14px
+	input[type=text]
+		height 18px
+		line-height 18px
+		margin-bottom 0
+		width 160px
+/**
+* Fin de Desplegable Filtro de Busqueda Section
+*/
+.result-search
+	background #fff
+	padding-bottom 5px
+	width 100%
+	.row
+		margin 0 auto
+		padding-top 10px
+		width 928px
+	.controls
+		float right
+		select
+			font-size 11px
+			height 25px
+			width 155px
+	&.shadow
+		border-bottom 1px solid #ECE8E8
+		box-shadow 0px 3px 4px #ECE8E8
+		padding 0 0 10px 0
+		.row
+			padding 0
+	.btn-urb
+		cursor pointer
+		float left
+		padding 7px 20px
+	.textboxlist-bits
+		float left
+	.textboxlist-bit-box
+		margin 0 6px 5px 0
+.messages
+	color #939393
+	float left
+	font-size 11px
+	line-height 13px
+	padding 3px 0 0 10px
+	width 377px
+.result
+	font-size 14px
+	line-height 16px
+	padding-bottom 20px
+/**
+* Resultado de Busqueda Section
+* @class Resultado de Busqueda
+* @module portada.css
+*/
+.headtype-results
+	background #F2F3F5
+	border 1px solid #E8E8E8
+	margin-bottom 10px
+	padding 10px
+	*zoom 1
+	&:before,&:after
+		display table
+		content ""
+		line-height 0
+	&:after
+		clear both
+.kinds-btns
+	float right
+	a
+		background #6f6f6f;
+		background -moz-linear-gradient(top,  #6f6f6f 0%, #6f6f6f 73%, #585858 100%)
+		background -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6f6f6f), color-stop(73%,#6f6f6f), color-stop(100%,#585858))
+		background -webkit-linear-gradient(top,  #6f6f6f 0%,#6f6f6f 73%,#585858 100%)
+		background -o-linear-gradient(top,  #6f6f6f 0%,#6f6f6f 73%,#585858 100%)
+		background -ms-linear-gradient(top,  #6f6f6f 0%,#6f6f6f 73%,#585858 100%)
+		background linear-gradient(to bottom,  #6f6f6f 0%,#6f6f6f 73%,#585858 100%)
+		box-shadow 1px 2px 2px rgba(0, 0, 0, 0.2)
+		color #FFF
+		border-radius 4px
+		float left
+		font 700 14px/18px family3
+		margin-left 10px
+		padding 5px 15px
+		text-shadow 1px 2px 0 rgba(0, 0, 0, 0.25)		
+		&:hover, &.act
+			background #ff9b2e
+			background unquote("url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI1JSIgc3RvcC1jb2xvcj0iI2ZmOWIyZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjkwJSIgc3RvcC1jb2xvcj0iI2ZmN2YxOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlYjc2MTciIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+)")
+			background -moz-linear-gradient(top, #ff9b2e 5%, #eb7617 90%, #eb7617 100%)
+			background -webkit-gradient(linear, left top, left bottom, color-stop(5%,#ff9b2e), color-stop(90%,#eb7617), color-stop(100%,#eb7617))
+			background -webkit-linear-gradient(top, #ff9b2e 5%,#eb7617 90%,#eb7617 100%)
+			background -o-linear-gradient(top, #ff9b2e 5%,#eb7617 90%,#eb7617 100%)
+			background -ms-linear-gradient(top, #ff9b2e 5%,#eb7617 90%,#eb7617 100%)
+			background linear-gradient(to bottom, #ff9b2e 5%,#eb7617 90%,#eb7617 100%)
+			text-decoration none
+.kind-ico
+	background url(routImg+"icon-layout.png") searchIconList no-repeat
+	float right
+	height 18px
+	margin-left 8px
+	width 18px
+	&.kgallery
+		background-position searchIconGallery
+	&.kmap
+		background-position searchIconMap
+		width 14px
+.order-select
+	float left
+	label
+		color #000
+		float left
+		font-size 14px
+		line-height 28px
+	.controls
+		float left
+		margin-left 10px
+	select
+		font-size 13px
+		height 28px
+		width 140px
+		option
+			background #fff
+			border-bottom 1px solid #e8e8e8
+			font 12px/13px family1
+			padding 3px
+.baner-search
+	margin-bottom 20px
+	text-align center
+.results-list
+	background #fff
+	border 1px solid #e8e8e8
+	margin-bottom 20px
+	position relative
+.head-results-list
+	background #F2F3F5
+	display table
+	height 100%
+	width 100%
+	h2
+		background #8BC53F
+		color #fff
+		display table-cell
+		font 400 13px/15px family1
+		margin 0
+		padding 6px 15px
+		position relative
+		vertical-align middle
+		width 370px
+		&.rs-beach
+			background #1BA1E1
+		&.rs-land
+			background #82592B
+		&.rs-tourist
+			background #00ABA9
+		&.rs-project
+			background #608829
+		a
+			color #fff
+.side-price
+	display table-cell
+	padding 10px 15px
+	position relative
+	vertical-align middle
+	width 350px
+	p
+		color #000
+		float left
+		line-height 15px
+		margin 0
+		text-align right
+		width 320px
+.firstprice
+	color #CC0000
+	font-size 16px
+	font-weight 700
+.secondprice
+	color #666
+.star-fvrte
+	background url(routImg+"icon-layout.png") inmuebleIconFavorite no-repeat
+	float right
+	font-size 0
+	height 18px
+	margin-left 10px
+	width 18px
+	&:hover
+		background-position inmuebleIconHoverFavorite
+.dtl-ads
+	float left
+	margin 10px 0 0 20px
+	width 360px
+	dl
+		float left
+		margin 0
+		width 180px
+		dt
+			color #666
+			font-family family2
+			float left
+			padding 5px 0
+		dd
+			color #000
+			font-family family2
+			margin-left 110px
+			padding 5px 0
+	&.type-projects
+		dl
+			margin 0
+			width 320px
+			dt
+				width 140px
+			dd
+				margin-left 140px
+.imglogo-klist
+	float left
+	margin 10px 0 0 20px
+	width 140px
+.result-printed
+	background url(routImg+"icon-portada.png") resultIcoImpreso no-repeat
+	height 60px
+	float left
+	font-size 0
+	margin 15px 25px 15px 15px
+	width 50px
+.rslt-printedinfo
+	float left
+	margin-top 15px
+	position relative
+	width 675px
+	h2
+		color #5F8526
+		font 400 13px/15px family1
+		margin 10px60px 10px 0
+	p
+		line-height 14px
+	.star-fvrte
+		position absolute
+		right 0
+		top 0
+		z-index 2
+.klist-foot
+	position relative
+.btns-goinfo
+	background #F2F3F5
+	padding 5px 0
+	*zoom 1
+	&:before,&:after
+		display table
+		content ""
+		line-height 0
+	&:after
+		clear both
+	a
+		background url(routImg+"icon-layout.png") icoSeemore no-repeat
+		float right
+		font-size 11px
+		line-height 18px
+		margin-right 15px
+		padding-left 25px
+		&:hover
+			background-position icoSeemoreHover
+		&.gocontact
+			background-position icoContactar
+			height 16px
+			&:hover
+				background-position icoContactarHover
+.btn-seeProjects
+	bottom -5px
+	left 0
+	position absolute
+	z-index 1
+	a
+		background #6f6f6f;
+		background -moz-linear-gradient(top,  #6f6f6f 0%, #6f6f6f 73%, #585858 100%)
+		background -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6f6f6f), color-stop(73%,#6f6f6f), color-stop(100%,#585858))
+		background -webkit-linear-gradient(top,  #6f6f6f 0%,#6f6f6f 73%,#585858 100%)
+		background -o-linear-gradient(top,  #6f6f6f 0%,#6f6f6f 73%,#585858 100%)
+		background -ms-linear-gradient(top,  #6f6f6f 0%,#6f6f6f 73%,#585858 100%)
+		background linear-gradient(to bottom,  #6f6f6f 0%,#6f6f6f 73%,#585858 100%)
+		color #FFF
+		border-radius 0 0 4px 4px
+		display block
+		font 400 13px/33px family1
+		text-align center
+		text-shadow 1px 2px 0 rgba(0, 0, 0, 0.25)
+		width 540px
+		&:hover
+			background #585858;
+			background -moz-linear-gradient(top,  #585858 0%, #585858 27%, #6f6f6f 100%)
+			background -webkit-gradient(linear, left top, left bottom, color-stop(0%,#585858), color-stop(27%,#585858), color-stop(100%,#6f6f6f))
+			background -webkit-linear-gradient(top,  #585858 0%,#585858 27%,#6f6f6f 100%)
+			background -o-linear-gradient(top,  #585858 0%,#585858 27%,#6f6f6f 100%)
+			background -ms-linear-gradient(top,  #585858 0%,#585858 27%,#6f6f6f 100%)
+			background linear-gradient(to bottom,  #585858 0%,#585858 27%,#6f6f6f 100%)
+			text-decoration none
+/**
+* Resultado de Busqueda Vista Galeria Section
+* @class Resultado de Busqueda Vista Galeria 
+* @module portada.css
+*/
+.kind-gallery
+	*zoom 1
+	&:before,&:after
+		display table
+		content ""
+		line-height 0
+	&:after
+		clear both
+	.results-list
+		float left
+		height 379px
+		margin 0 0 20px 27px
+		position relative
+		width 240px
+		&:first-child
+			margin-left 0
+		&:nth-child(3n+1)
+			margin-left 0			
+		&.twoprinted
+			background none
+			border 0
+			height 381px		
+		.klist-foot
+			position absolute
+			left 0
+			bottom 0
+			width 100%
+	.head-results-list
+		height 42px
+		position relative
+		h2
+			display table-cell
+			height 42px
+			margin 0
+			padding 0 30px 0 10px
+			position relative
+			vertical-align middle
+			width 200px
+		.star-fvrte
+			position absolute
+			right 10px
+			top 9px
+			z-index 2
+	.grids-3
+		width 240px
+	.side-price
+		float left
+		padding 10px 10px
+		width 220px
+		p
+			float none
+			line-height 14px
+			text-align left
+			width 220px
+	.dtl-ads
+		float left
+		height 138px
+		margin 0 0 0 10px
+		width 220px
+		p
+			line-height 14px
+			margin-bottom 3px
+		span
+			color #666
+			display block
+			line-height 13px
+			padding-bottom 10px
+		dl
+			padding-bottom 20px
+			width 220px
+			*zoom 1
+			&:before,&:after
+				display table
+				content ""
+				line-height 0
+			&:after
+				clear both
+			dt
+				width 85px
+			dd
+				margin-left 85px
+	.imglogo-klist
+		float none
+		margin 0
+		position absolute
+		right 10px
+		bottom 40px
+		width 60px
+		z-index 1
+	.btns-goinfo
+		a
+			margin-right 22px
+.adsprinted
+	background #F2F3F5
+	border 1px solid #e8e8e8
+	height 168px
+	margin-top 20px
+	padding-top 10px
+	position relative
+	width 240px
+	&:first-child
+		margin-top 0
+	.star-fvrte
+		position absolute
+		right 10px
+		top 10px
+		z-index 2
+	.result-printed
+		display block
+		float none
+		margin 0 auto
+		width 50px
+	.rslt-printedinfo
+		float none
+		margin 0 0 9px 10px
+		position relative
+		width 220px
+		h2
+			height 16px
+			margin-bottom 5px
+			overflow hidden
+		p
+			height 40px
+			margin 0
+			overflow hidden
+/**
+* Resultado de Busqueda Vista Mapa Section
+* @class Resultado de Busqueda Vista Mapa 
+* @module portada.css
+*/
+.kind-map
+	.sec-property
+		margin-bottom 10px
+	.map-places
+		label
+			width 230px
+		li
+			margin-left 34px
+			&:nth-child(3n+1)
+				margin-left 0
+.srch-map
+	position relative
+	.kind-gallery
+		position absolute
+		z-index 1
+		right 10px
+		top 10px
+		.results-list
+			border 8px solid #ccc
+			border-radius 4px
+			box-shadow 0 1px 3px #333
+/**
+* Estilos generales Section
+* @class Estilos generales 
+* @module portada.css
+*/
+.sec-property
+	margin-bottom 30px
+	&:last-child
+		margin-bottom 0
+	.order-select
+		margin-bottom 10px
+		label
+			font-size 12px
+.district
+	background #fff
+	border 1px solid #e8e8e8
+	border-radius 0 0 4px 4px
+	.btn-urb
+		border-radius 0 0 4px 4px
+		display block
+		padding 8px 0
+		text-align center
+	.img
+		float left
+		width 220px
+	.text
+		float left
+		line-height 15px
+		margin 10px 0 0 20px
+		width 440px
+		&.wplus
+			width 520px
+
+/**
+* Resultado de Busqueda Vista Mapa Section
+* @class Resultado de Busqueda Vista Mapa 
+* @module portada.css
+*/
+.start-projects
+	.grids-4
+		margin-left 0
+		margin-right 20px
+		&.adv
+			float right
+			margin 0
+		&:nth-child(2)
+			margin-left 0
+		&:nth-child(3n)
+			margin-right 0
+	&.active
+		.grids-4:first-child
+			float right
+			height 1060px
+		.urb-ads
+			margin-right 20px !important

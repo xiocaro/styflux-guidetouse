@@ -1,0 +1,260 @@
+/**
+* Forms Section
+* @class Forms
+* @module base.css
+*/
+/**
+@module resources.css
+@submodule Components: Estilos para los componentes del formulario
+*/
+.ioption
+	color #333
+	display block
+	font-size 14px
+	line-height 18px
+	padding-left 20px
+	position relative
+	input[type="radio"],input[type="checkbox"]
+		left 0
+		margin 0
+		padding 0
+		position absolute
+		top 2px
+		*left -2px
+		*top -2px
+	&.p0
+		padding-left 0
+	&.font-small
+		font-size 12px
+.iopinline
+	.ioption
+		float left
+		width 162px		
+		&.mwidth
+			width 270px
+	&.fxgen
+		padding-top 6px
+		.ioption
+			width 120px
+	& + .iopinline
+		margin-top 10px	
+	.poption
+		float left
+		font-size 14px
+		line-height 16px
+		margin-left 20px
+		padding-left 20px
+		position relative
+		input[type="radio"],input[type="checkbox"]
+			left 0
+			margin 0
+			padding 0
+			position absolute
+			top 2px
+			*left -2px
+			*top -2px
+		&:first-child
+			margin-left 0
+			padding-left 0
+.tit-poption
+	float left
+	font-size 14px
+	line-height 32px
+	width 150px
+	&.line
+		line-height 16px
+.impreso
+	.controls
+		margin-left 40px
+	.ioption
+		float left
+		width 340px
+	span
+		color #FF0000
+		font-size 12px
+/**
+@module resources.css
+@submodule Positions Forms: Estilos de contenedores del formulario
+*/
+.control-label
+	color #666
+	display block
+	font-size 14px
+	margin-bottom 10px
+.control-group
+	margin-bottom 20px
+	&.last
+		margin 0
+.controls
+	*zoom 1
+	&:before,&:after
+		display table
+		content ""
+		line-height 0
+	&:after
+		clear both
+.controls-inline
+	*zoom 1
+	&:before,&:after
+		display table
+		content ""
+		line-height 0
+	&:after
+		clear both
+	&.fix
+		.controls + .controls
+			margin-left 10px
+			padding 0
+	& + .controls-inline
+		margin-top 20px
+	.controls
+		float left
+		& + .controls
+			margin-left 20px
+			padding 0
+.cgroup-inline
+	margin-bottom 20px
+	*zoom 1
+	&:before,&:after
+		display table
+		content ""
+		line-height 0
+	&:after
+		clear both
+	&.last
+		margin 0
+	.control-group
+		float left
+		margin 0 20px 0 0
+		&:last-child
+			margin 0
+.help-inline
+	color #666
+	display inline-block
+	*display inline
+	font-family Arial,sans-serif
+	font-size 12px
+	line-height 12px
+	padding 10px 0 0 10px
+	vertical-align top
+	*zoom 1
+.inpt-desc
+	color #666
+	display block
+	font-size 12px
+	padding-top 12px
+.toselect
+	position relative
+	&:after
+		background url(routImg+"icon-portada.png") arrSelect no-repeat
+		color #333
+		content ''
+		font-size 11px
+		height 8px
+		padding 0 0 2px
+		pointer-events none
+		position absolute
+		right 8px
+		top 7px
+		width 14px
+	&:before
+		background #fff
+		content ''
+		display block
+		height 27px
+		pointer-events none
+		position absolute
+		right 5px
+		top -3px
+		width 20px
+	select
+		box-shadow none
+		color #333
+		outline none
+		display inline-block
+		-webkit-appearance none
+		-moz-appearance none
+		appearance none
+		cursor pointer
+/**
+@module resources.css
+@submodule Formulario horizontal
+*/
+.frm-horizontal
+	.control-label
+		float left
+		margin 0
+		padding-top 8px
+		width 110px
+	.controls
+		margin-left 110px
+/**
+@module resources.css
+@submodule Desable
+*/
+.disabled,input[disabled]
+	background #efefef !important
+/**
+@module resources.css
+@submodule Input Size: Tamaños de los inputs
+*/
+.input-less
+	width 63px
+.input-xxlarge
+	width 896px
+.input-xlarge
+	width 702px
+	font-size 15px !important
+.input-large
+	width 546px
+.input-lesslarge
+	width 500px
+.input-extra
+	width 240px
+.input-medium
+	width 428px
+.input-xxmiddle
+	width 380px
+.input-xmiddle
+	width 320px
+.input-lmiddle
+	width 280px
+.input-middle
+	width 222px
+.input-xxsmall
+	width 195px
+.input-xsmall
+	width 140px
+.input-small
+	width 115px
+.input-xmini
+	width 82px
+.input-mini
+	width 60px
+.sel-small
+	width 133px
+.sel-xxsmall
+	width 213px
+.sel-xsmall
+	width 160px
+.sel-middle
+	width 200px
+.sel-lmiddle
+	width 286px
+.sel-mini
+	width 78px
+.sel-xmedium
+	width 350px
+.sel-lmedium
+	width 159px
+.sel-large
+	width 458px
+textarea
+	&.input-xxlarge
+		height 75px
+	&.textarea-xxmiddle
+		width 540px
+	&.textarea-xmiddle
+		width 430px
+	&.textarea-lmiddle
+		width 280px

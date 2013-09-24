@@ -1,0 +1,10 @@
+font_face($font_face) {
+	font-family $font_face
+	font-style normal
+	font-weight normal
+	src url(styfluxFonts+$font_face+'/'+$font_face+'-webfont.eot');
+	src url(styfluxFonts+$font_face+'/'+$font_face+'-webfont.eot?#iefix') format('embedded-opentype'),
+		url(styfluxFonts+$font_face+'/'+$font_face+'-webfont.woff') format('woff'),
+        url(styfluxFonts+$font_face+'/'+$font_face+'-webfont.ttf') format('truetype'),
+        url(styfluxFonts+$font_face+'/'+$font_face+'-webfont.svg#'+$font_face) format('svg');
+}

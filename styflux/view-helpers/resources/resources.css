@@ -1,0 +1,1894 @@
+/**
+* Resources Section
+* @class Resources
+* @module base.css
+*/
+/**
+@module resources.css
+@submodule Style Libre: Van los estilos libres
+*/
+.fix-bg {
+  position: relative;
+  z-index: 2;
+}
+.infprint {
+  display: block;
+}
+.infprint li {
+  color: #c00;
+}
+.infview {
+  display: inline-block;
+  *display: inline;
+  line-height: 15px;
+  padding-left: 28px;
+  position: relative;
+  vertical-align: top;
+  *zoom: 1;
+}
+.infview span {
+  background: url("routImgicon-portada.png") IconInfview;
+  height: 14px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 22px;
+}
+.btn-vermas {
+  background: #f2f3f5;
+  border: 1px solid #e8e8e8;
+  color: #5f8526;
+  display: block;
+  font-weight: 700;
+  line-height: 40px;
+  outline: 0 none !important;
+  text-align: center;
+}
+.btn-vermas:hover {
+  background: #d7d6d6;
+  color: #5f8526;
+  text-decoration: none;
+}
+.btn-vermas.loading {
+  background: url("routImgloading.gif") center center no-repeat #e8e8e8;
+  text-indent: -9999px;
+}
+.help-obl {
+  color: #c00;
+}
+.control {
+  text-align: center;
+}
+.rcv-alert {
+  background-color: #f2f3f5;
+  border: 1px solid #e8e8e8;
+  color: #333;
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: 10px;
+  padding: 12px 0 12px 10px;
+}
+.rcv-alert .ioption {
+  font-size: 12px;
+  line-height: 16px;
+}
+.rcv-alert .ioption input[type="checkbox"] {
+  top: 1px;
+  *top: -1px;
+}
+.textgray {
+  color: #999;
+  font-size: 12px;
+  line-height: 11px;
+}
+.hide {
+  display: none;
+}
+.box-lesswhite {
+  background: #fafbfe;
+  border: 1px solid #e8e8e8;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+/**
+@module resources.css
+@submodule Opciones del admin : Contenedor de la opciones que van debajo del titulo
+*/
+.opts-hadmin {
+  padding-bottom: 12px;
+}
+.opts-hadmin p {
+  color: #666;
+  float: left;
+  margin: 0;
+  padding-top: 7px;
+}
+.opts-hadmin .box-left {
+  float: left;
+}
+.opts-hadmin .box-left .btn-urb,
+.opts-hadmin .box-left .btn-gray {
+  float: left;
+}
+.opts-hadmin .box-left .box-ck,
+.opts-hadmin .box-left .select-line {
+  float: left;
+}
+.opts-hadmin .box-left .btn-gray + .btn-gray {
+  margin: 0 0 0 10px;
+}
+.opts-hadmin .box-rigth {
+  float: right;
+}
+.opts-hadmin .box-rigth .btn-urb {
+  margin-left: 10px;
+}
+.opts-hadmin .select-line {
+  float: right;
+  margin-right: 10px;
+}
+.opts-hadmin .select-line label {
+  color: #999;
+  font-size: 13px;
+}
+.opts-hadmin .select-line .sel-xsmall {
+  font-size: 14px;
+  height: 25px;
+  line-height: 25px;
+  margin-left: 5px;
+  padding: 2px 5px;
+}
+.opts-hadmin .btn-urb,
+.opts-hadmin .btn-gray {
+  float: right;
+}
+.opts-hadmin .btn-urb + .btn-gray {
+  margin-right: 10px;
+}
+.opts-hadmin .btn-gray + .btn-gray {
+  margin-right: 10px;
+}
+/**
+@module resources.css
+@submodule Urbania Simple Title: Titulos de Urbania con globos al lado izquierdo
+*/
+.urb-stitle {
+  border-bottom: 1px solid #ccc;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0 0 12px;
+  padding-bottom: 3px;
+}
+.urb-stitle.font28 {
+  font-size: 28px;
+  line-height: 30px;
+  padding-bottom: 7px;
+}
+.subtit {
+  font-size: 19px;
+  line-height: 19px;
+}
+/**
+@module resources.css
+@submodule Urbania Title: Titulos de Urbania con globos al lado izquierdo
+*/
+.urb-title {
+  border-bottom: 1px solid #ccc;
+  font-size: 20px;
+  line-height: 24px;
+  padding-bottom: 4px;
+  position: relative;
+}
+.urb-title span {
+  background-image: url("routImgicon-layout.png");
+  background-repeat: no-repeat;
+  height: 23px;
+  left: -24px;
+  position: absolute;
+  top: 0;
+  width: 16px;
+}
+.urb-title span.bg-fb {
+  background-position: homeIconFb;
+}
+.urb-title span.bg-tw {
+  background-position: homeIconTw;
+}
+/**
+@module resources.css
+@submodule Header admin: Contenedor de los titulos en el administrador
+*/
+.head-adm {
+  border-bottom: 1px solid #ccc;
+  margin: 0 0 15px;
+  padding-bottom: 10px;
+  *zoom: 1;
+}
+.head-adm:before,
+.head-adm:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.head-adm:after {
+  clear: both;
+}
+.head-adm h2 {
+  font: 20px/22px family2;
+  margin-bottom: 10px;
+}
+.lnk-return {
+  top: 8px;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+.post-relt {
+  position: relative;
+}
+/**
+@module resources.css
+@submodule Formulario Filtro Administrador
+*/
+.calend {
+  position: relative;
+}
+.calend input[type="text"] {
+  font-family: family1;
+  padding-left: 35px;
+  width: 168px;
+}
+.calend .vcalendar {
+  background: url("routImgicon-publicacion.png") actionIconCalendar no-repeat;
+  height: 21px;
+  left: 10px;
+  position: absolute;
+  top: 5px;
+  width: 19px;
+}
+.just-search {
+  margin-bottom: 10px;
+  *zoom: 1;
+}
+.just-search:before,
+.just-search:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.just-search:after {
+  clear: both;
+}
+.just-search .controls {
+  float: left;
+  position: relative;
+}
+.just-search .controls + .controls {
+  padding-left: 10px;
+}
+.just-search input[type="text"] {
+  font-family: family1;
+  font-size: 14px;
+  height: 20px;
+  line-height: 20px;
+  padding-left: 5px;
+  width: 420px;
+}
+.filter-adm {
+  background: #f2f3f5;
+  border-radius: 7px;
+  padding: 10px;
+  *zoom: 1;
+}
+.filter-adm:before,
+.filter-adm:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.filter-adm:after {
+  clear: both;
+}
+.filter-adm .controls {
+  float: left;
+  position: relative;
+}
+.filter-adm .controls + .controls {
+  padding-left: 10px;
+}
+.filter-adm input[type="text"] {
+  font-family: family1;
+  font-size: 14px;
+  height: 20px;
+  line-height: 20px;
+  padding-left: 30px;
+  width: 720px;
+}
+.filter-adm .btn-urb {
+  font-size: 17px;
+  height: 30px;
+  line-height: 22px;
+  width: 150px;
+}
+.filter-adm .vglass {
+  background: url("routImgicon-layout.png") IconVglass no-repeat;
+  height: 20px;
+  left: 5px;
+  position: absolute;
+  top: 6px;
+  width: 21px;
+}
+.detail-yellowinfo {
+  background: #fffeef;
+  border: 1px solid #e8e8e8;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+/**
+@module resources.css
+@submodule Buscador para Portadas
+*/
+.hfilter-adm {
+  background: #6c8764;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  padding: 20px 30px;
+  *zoom: 1;
+}
+.hfilter-adm:before,
+.hfilter-adm:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.hfilter-adm:after {
+  clear: both;
+}
+.hfilter-adm input[type="text"] {
+  font-family: family1;
+  font-size: 14px;
+  height: 20px;
+  line-height: 20px;
+  padding-left: 30px;
+  width: 620px;
+}
+.hfilter-adm select {
+  background: #fff;
+  height: 33px;
+  padding: 6px;
+  width: 160px;
+}
+.hfilter-adm .vglass {
+  background: url("routImgicon-layout.png") IconVglass no-repeat;
+  height: 20px;
+  left: 5px;
+  position: absolute;
+  top: 5px;
+  width: 21px;
+}
+.search-data {
+  float: left;
+  margin-right: 25px;
+  width: 660px;
+}
+.search-data .cgroup-inline {
+  margin: 15px 0 0;
+}
+.search-data .cgroup-inline .controls {
+  float: left;
+}
+.search-data .controls {
+  position: relative;
+}
+.selectbox {
+  float: left;
+  margin-left: 20px;
+}
+.selectbox input[type="text"] {
+  font-family: family1;
+  font-size: 14px;
+  height: 20px;
+  line-height: 20px;
+  padding-left: 10px;
+  width: 140px;
+}
+.selectbox input[type="text"].input-district {
+  padding-left: 30px;
+  width: 260px;
+}
+.selectbox .varrow {
+  background: url("routImgicon-layout.png") IconVarrow no-repeat;
+  height: 20px;
+  right: 9px;
+  position: absolute;
+  top: 5px;
+  width: 14px;
+}
+.selectbox:first-child {
+  margin-left: 0;
+}
+/**
+@module resources.css
+@submodule Order table: Flechas de ordenamiento para los menus
+*/
+.tbl-order {
+  display: inline-block;
+  *display: inline;
+  height: 20px;
+  padding: 10px 0 0 5px;
+  vertical-align: middle;
+  *zoom: 1;
+}
+.tbl-order a {
+  background-image: url("routImgicon-layout.png");
+  display: inline-block;
+  *display: inline;
+  height: 10px;
+  margin-left: 2px;
+  vertical-align: top;
+  width: 12px;
+  *zoom: 1;
+}
+.tbl-order a:first-child {
+  margin: 0;
+}
+.tbl-order .up {
+  background-position: -432px -110px;
+}
+.tbl-order .up:hover {
+  background-position: -408px -110px;
+}
+.tbl-order .up.act {
+  background-position: -420px -110px;
+  cursor: default;
+}
+.tbl-order .down {
+  background-position: -432px -100px;
+}
+.tbl-order .down:hover {
+  background-position: -408px -100px;
+}
+.tbl-order .down.act {
+  background-position: -420px -100px;
+  cursor: default;
+}
+/**
+@module resources.css
+@submodule List checks: Utilitario que sirve para hacer un listado de checks de 5 columnas
+*/
+.list-chk {
+  *zoom: 1;
+}
+.list-chk:before,
+.list-chk:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.list-chk:after {
+  clear: both;
+}
+.list-chk li {
+  float: left;
+  width: 182px;
+}
+.list-chk li:nth-child(n+6) {
+  margin-top: 10px;
+}
+.list-chk input[type="radio"],
+.list-chk input[type="checkbox"] {
+  *top: 0;
+}
+.list-chk.lchk-4 li {
+  width: 228px;
+}
+.list-chk.lchk-4 li:nth-child(n+5) {
+  margin-top: 10px;
+}
+/**
+@module resources.css
+@submodule Estados de pago
+*/
+.stpaid-ped {
+  color: #c00;
+}
+.stpaid-act {
+  color: #5f8526;
+}
+.bg-stpaidAct td {
+  background: #fcf4db;
+}
+.bg-stpaidOver td {
+  background: #f2f3f5;
+  color: #666;
+}
+.expire {
+  font-size: 9px;
+  line-height: 9px;
+}
+/**
+@module resources.css
+@submodule Iconos de action para el admin
+*/
+.action-icons {
+  *display: inline;
+  *zoom: 1;
+  background-image: url("routImgicon-publicacion.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  font-size: 0px;
+  height: 21px;
+  line-height: 0px;
+  vertical-align: middle;
+  width: 20px;
+}
+.action-icons + .action-icons {
+  margin-left: 10px;
+}
+.action-icons.edit {
+  background-position: actionIconEdit;
+  height: 21px;
+  width: 18px;
+}
+.action-icons.edit:hover {
+  background-position: actionIconEditHover;
+}
+.action-icons.highlight {
+  background-position: actionIconHighlight;
+  width: 18px;
+}
+.action-icons.highlight:hover {
+  background-position: actionIconHighlightHover;
+}
+.action-icons.highlight.act {
+  background-position: actionIconNoHighlight;
+}
+.action-icons.highlight.act:hover {
+  background-position: actionIconNoHighlightHover;
+}
+.action-icons.highlight.act.bloq {
+  background-position: actionIconNoHighlightDis;
+}
+.action-icons.highlight.act.bloq:hover {
+  background-position: actionIconNoHighlightDis;
+}
+.action-icons.highlight.bloq {
+  background-position: actionIconHighlightDis;
+}
+.action-icons.highlight.bloq:hover {
+  background-position: actionIconHighlightDis;
+}
+.action-icons.givedown {
+  background-position: actionIconGivedown;
+  width: 18px;
+}
+.action-icons.givedown:hover {
+  background-position: actionIconGivedownHover;
+}
+.action-icons.publishads {
+  background-position: actionIconPublicAds;
+  width: 18px;
+}
+.action-icons.publishads:hover {
+  background-position: actionIconPublicAdsHover;
+}
+.action-icons.publishads.dis {
+  background-position: actionIconPublicAdsDisabled;
+  cursor: default;
+}
+.action-icons.republish {
+  background-position: actionIconRepublish;
+}
+.action-icons.republish:hover {
+  background-position: actionIconRepublishHover;
+}
+.action-icons.delete {
+  background-position: actionIconDelete;
+}
+.action-icons.delete:hover {
+  background-position: actionIconDeleteHover;
+}
+.action-icons.note {
+  background-position: actionIconNote;
+}
+.action-icons.note:hover {
+  background-position: actionIconNoteHover;
+}
+.action-icons.message {
+  background-position: actionIconMessage;
+}
+.action-icons.message:hover {
+  background-position: actionIconMessageHover;
+}
+.action-icons.share {
+  background-position: actionIconShare;
+}
+.action-icons.share:hover {
+  background-position: actionIconShareHover;
+}
+.action-icons.calendar {
+  background-position: actionIconCalendar;
+  width: 19px;
+}
+.action-icons.calendar:hover {
+  background-position: actionIconCalendarHover;
+}
+.action-icons.properties {
+  background-position: actionIconProperty;
+}
+.action-icons.properties:hover {
+  background-position: actionIconPropertyHover;
+}
+.action-icons.play {
+  background-position: actionIconPlay;
+}
+.action-icons.play:hover {
+  background-position: actionIconPlayHover;
+}
+.action-icons.pending {
+  background-position: actionIconPending;
+}
+.action-icons.pending:hover {
+  background-position: actionIconPendingHover;
+}
+.action-icons.addprinted {
+  background-position: actionIconAddPrinted;
+}
+.action-icons.addprinted:hover {
+  background-position: actionIconAddPrintedHover;
+}
+.action-icons.cancelprinted {
+  background-position: actionIconCancelPrinted;
+}
+.action-icons.cancelprinted:hover {
+  background-position: actionIconCancelPrintedHover;
+}
+.action-icons.seeinfo {
+  background-position: actionIconSeeinfo;
+}
+.action-icons.seeinfo:hover {
+  background-position: actionIconSeeinfoHover;
+}
+.action-icons.seeInterested {
+  background-position: actionIconSeeInterested;
+}
+.action-icons.seeInterested:hover {
+  background-position: actionIconSeeInterestedHover;
+}
+.action-icons.printinfo {
+  background-position: actionIconPrintInfo;
+}
+.action-icons.printinfo:hover {
+  background-position: actionIconPrintInfoHover;
+}
+.action-iconsInm {
+  float: right;
+  width: 50px;
+}
+.action-iconsInm span {
+  background: url("routImgicon-publicacion.png") iconInmShared;
+  float: left;
+  height: 16px;
+  width: 20px;
+}
+.action-iconsInm span.redInm {
+  background-position: iconInmSharedRed;
+}
+.action-iconsInm span.greenInm {
+  background-position: iconInmSharedGreen;
+}
+.action-iconsInm a {
+  background: url("routImgicon-publicacion.png") actionIconInmShare;
+  float: right;
+  font-size: 0;
+  height: 21px;
+  margin-top: 25px;
+  width: 20px;
+}
+.action-iconsInm a:hover {
+  background-position: actionIconInmShareHover;
+}
+.box-highlight {
+  background: #fffba8;
+  margin-top: 10px;
+  padding: 5px 10px;
+}
+.box-highlight .text {
+  display: inline-block;
+  margin-left: 10px;
+}
+.box-highlight .highlight:hover {
+  background-position: actionIconHighlight;
+}
+.blog-img {
+  text-align: center;
+}
+.blog-img img {
+  height: 169px;
+}
+.blog-imgch {
+  text-align: center;
+}
+.blog-imgch img {
+  height: 82px;
+}
+.bline {
+  border-bottom: 1px solid #ccc;
+  color: #000;
+  font-size: 17px;
+  line-height: 17px;
+  padding-bottom: 6px;
+}
+/**
+@module resources.css
+@submodule Size Varied: estilos como paddings, margins,anchos que se usan en ocaciones en la web
+*/
+.nopad {
+  padding: 0;
+}
+.mt30mbt0 {
+  margin: 30px 0 0;
+}
+.pb50 {
+  padding-bottom: 50px;
+}
+.mb30 {
+  margin-bottom: 30px;
+}
+.mb20 {
+  margin-bottom: 20px;
+}
+.mb15 {
+  margin-bottom: 15px;
+}
+.mb10 {
+  margin-bottom: 10px;
+}
+.mb40 {
+  margin-bottom: 40px;
+}
+.mt30 {
+  margin-top: 30px;
+}
+.mt32 {
+  margin-top: 32px;
+}
+.mt24 {
+  margin-top: 24px;
+}
+.mt50 {
+  margin-top: 50px;
+}
+.ml10 {
+  margin-left: 10px;
+}
+.w322 {
+  width: 338px;
+}
+.green {
+  color: #5f8526;
+}
+/**
+@module resources.css
+@submodule Position styles: estilos de posicionamiento como floats, text-aligns
+*/
+.ftleft {
+  float: left;
+}
+.ftright {
+  float: right;
+}
+/**
+* Popups Section
+* @class Popups
+* @module portada.css
+*/
+.popup-addfavorite {
+  background: #fff;
+  padding: 20px;
+  width: 250px;
+}
+.popup-addfavorite p {
+  color: #333;
+  line-height: 15px;
+}
+.popup-addfavorite textarea {
+  margin-bottom: 15px;
+  width: 230px;
+}
+.popup-box {
+  background: #fff;
+  width: 460px;
+}
+.report-adv p {
+  color: #333;
+  font-size: 14px;
+  line-height: 15px;
+  padding-top: 10px;
+}
+.report-adv .controls {
+  margin-bottom: 10px;
+}
+.report-adv .control-label {
+  line-height: 25px;
+  padding-top: 15px;
+}
+.reason-message {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  *zoom: 1;
+}
+.reason-message:before,
+.reason-message:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.reason-message:after {
+  clear: both;
+}
+.reason-img {
+  float: left;
+  width: 140px;
+}
+.reason-tit {
+  float: left;
+  margin-left: 15px;
+  width: 280px;
+}
+.reason-tit h2 {
+  color: #5f8727;
+  font: 700 14px/15px family1;
+}
+.reason-tit p {
+  color: #000;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.reason-tit span {
+  color: #c00;
+}
+.formMessage p {
+  color: #666;
+}
+.formMessage .control-label {
+  display: inline-block;
+  line-height: 25px;
+  margin-bottom: 0;
+  vertical-align: top;
+  width: 140px;
+  *display: inline;
+  *zoom: 1;
+}
+.formMessage .controls {
+  display: inline-block;
+  vertical-align: top;
+  width: 310px;
+  *display: inline;
+  *zoom: 1;
+}
+.formMessage input {
+  width: 293px;
+}
+.formMessage textarea {
+  margin-bottom: 15px;
+  width: 293px;
+}
+.terms {
+  background: #f2f3f5;
+  color: #666;
+  margin-bottom: 0;
+  padding: 12px 0;
+  text-align: center;
+}
+/**
+* Alerts
+* @class Popups
+* @module layout.css
+*/
+.box-alert {
+  background-color: #ffefb7;
+  border: 1px solid #ffb70f;
+  border-radius: 4px;
+  color: #333;
+  font-size: 13px;
+  line-height: 16px;
+  margin: 20px auto 0;
+  padding: 8px 0;
+  text-align: center;
+  width: 938px;
+}
+.box-alert.error {
+  background-color: #f2dede;
+  border: 1px solid #eed3d7;
+}
+.box-alert a {
+  color: #d19301;
+  float: right;
+  font: 700 14px/15px family1;
+  margin-right: 15px;
+  text-decoration: none;
+}
+.box-alert a.close {
+  color: #ca4659;
+}
+/**
+* Blog Urbania
+* @class Blog Urbania
+* @module layout.css
+*/
+.txtgray {
+  color: #666;
+  font-family: family2;
+  font-size: 15px;
+  line-height: 16px;
+}
+.box-perfil {
+  background: #fff;
+  border: 1px solid #ececec;
+}
+.border-gray .grids-4 {
+  background: #fff;
+  border: 1px solid #ececec;
+  width: 298px;
+}
+.blog-box {
+  margin-top: 30px;
+}
+.blog-box .urb-title {
+  position: relative;
+  *zoom: 1;
+}
+.blog-box .urb-title:before,
+.blog-box .urb-title:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.blog-box .urb-title:after {
+  clear: both;
+}
+.blog-box .urb-title span {
+  background-image: url("routImgicon-layout.png");
+  background-repeat: no-repeat;
+  height: 23px;
+  left: -24px;
+  position: absolute;
+  top: 0;
+  width: 16px;
+}
+.blog-box .urb-title .textgray {
+  color: #666;
+  float: left;
+  font-family: family2;
+  font-size: 15px;
+  line-height: 16px;
+  margin-left: 5px;
+  padding-top: 5px;
+}
+.blog-content {
+  padding: 15px;
+}
+.blog-content h2 {
+  color: #5f8626;
+  font: 20px/21px family1;
+  margin-bottom: 3px;
+}
+.blog-content p {
+  font-size: 12px;
+  line-height: 15px;
+  margin-bottom: 15px;
+  word-wrap: break-word;
+}
+.blog-content p:last-of-type {
+  margin-bottom: 4px;
+}
+.hgt-blog {
+  height: 320px;
+}
+.full-text h2 {
+  color: #000;
+  font: 700 14px/16px family1;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+.full-text p {
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
+.full-text ul {
+  margin-left: 15px;
+  padding-bottom: 10px;
+}
+.full-text ul li {
+  line-height: 16px;
+  list-style-type: disc;
+  padding-bottom: 5px;
+}
+/**
+* Filtro de Busqueda Section
+* @class Filtro de Busqueda
+* @module portada.css
+*/
+#fixed-search-main {
+  background: #fff;
+  display: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 20;
+}
+#fixed-search-main .head-social {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  float: right;
+  margin: 6px 0 0 0;
+}
+#fixed-search-main .textboxlist-bits.result-search {
+  float: none;
+  margin: 10px auto;
+  width: 924px;
+}
+.fixed-logos {
+  padding: 10px 0;
+}
+.fixed-tags {
+  width: 100%;
+  box-shadow: 0px 2px 5px #ccc;
+}
+.fixed-logos-social {
+  display: block;
+  width: 942px;
+  margin: auto;
+}
+.fixed-logo-min {
+  width: 100px;
+  height: 24px;
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  background: url("routImgurbaniamin.png");
+}
+#search-main {
+  background: #f5f5f5;
+  background: -moz-linear-gradient(top, #f5f5f5 0%, #e2e3e5 100%);
+  background: -ms-linear-gradient(top, #f5f5f5 0%, #e2e3e5 100%);
+  background: -o-linear-gradient(top, #f5f5f5 0%, #e2e3e5 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f5f5f5), color-stop(100%, #e2e3e5));
+  background: -webkit-linear-gradient(top, #f5f5f5 0%, #e2e3e5 100%);
+  background: linear-gradient(to bottom, #f5f5f5 0%, #e2e3e5 100%);
+  border: none;
+  box-shadow: inset 1px 3px 5px #ccc, inset 1px -1px 5px #ccc;
+  width: 100%;
+}
+#search-main .menu {
+  width: 942px;
+  margin: auto;
+}
+#search-main .menu > div {
+  border-right: 1px solid #ccc;
+  cursor: pointer;
+  float: left;
+  padding: 10px 30px 10px 10px;
+  position: relative;
+}
+#search-main .menu > div.act {
+  display: block;
+  background: #fff;
+}
+#search-main .menu span {
+  display: block;
+}
+#search-main .menu span:first-child {
+  color: #839c5e;
+  margin: 0 0 5px 0;
+}
+#search-main .menu .arrow-down {
+  background: url("routImgicon-layout.png") headIconMainmenu no-repeat;
+  height: 7px;
+  position: absolute;
+  right: 4px;
+  top: 30px;
+  width: 10px;
+}
+#search-main .menu .arrow-down:hover {
+  background-position: headIconMainmenuAcount;
+}
+/**
+* Desplegable Filtro de Busqueda Section
+*/
+.menu-listoptions {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 0 0 5px 5px;
+  border-top: 0;
+  box-shadow: 2px 2px 6px #b6b6b6;
+  display: none;
+  left: -1px;
+  padding: 10px;
+  position: absolute;
+  top: 49px;
+  width: 100%;
+  z-index: 5;
+}
+.menu-listoptions .control {
+  margin-top: 10px;
+}
+.menu-listoptions input[type="checkbox"],
+.menu-listoptions [type="radio"] {
+  margin: -2px 5px 0 0;
+}
+.list li {
+  padding: 5px 0;
+}
+.list label {
+  line-height: 14px;
+}
+#estate .menu-listoptions {
+  padding: 0;
+  width: 90px;
+}
+#estate .menu-listoptions li {
+  border-top: 1px solid #e0e0e0;
+  padding: 0;
+  transition: all 0.3s ease;
+}
+#estate .menu-listoptions li:first-child {
+  border-top: 0;
+}
+#estate .menu-listoptions li a {
+  border-radius: 0;
+  color: #5f8626;
+  display: block;
+  line-height: 25px;
+  padding: 0 5px;
+  text-decoration: none;
+}
+#estate .menu-listoptions li a.last {
+  border-radius: 0 0 5px 5px;
+}
+#estate .menu-listoptions li a:hover {
+  background: #fff1b9;
+  color: #000;
+}
+#type-property {
+  width: 170px;
+}
+#type-property .menu-listoptions {
+  width: 190px;
+}
+#location {
+  width: 150px;
+}
+#location .menu-listoptions {
+  width: 440px;
+}
+.slt-group {
+  border-bottom: 1px solid #ccc;
+  margin: 5px 0;
+}
+.slt-group label {
+  color: #333;
+  float: left;
+  font-size: 12px;
+  line-height: 30px;
+  margin-bottom: 0;
+  width: 114px;
+}
+.slt-group .control-group {
+  float: left;
+  margin-bottom: 10px;
+}
+.slt-group .controls {
+  float: left;
+  width: 270px;
+}
+.slt-group .tags {
+  display: block;
+}
+.slt-group .action {
+  text-align: center;
+  margin: 10px 0;
+}
+.slt-group select {
+  width: 100%;
+}
+.slt-group .textboxlist-bits {
+  padding: 0;
+}
+#price {
+  width: 120px;
+}
+#price .menu-listoptions {
+  width: 140px;
+}
+#room .menu-listoptions,
+#toilet .menu-listoptions {
+  width: 108px;
+}
+#more-option {
+  width: 54px;
+}
+#more-option span {
+  color: #839c5e;
+}
+#more-option h3 {
+  font: 400 14px/16px family1;
+}
+#more-option .menu-listoptions {
+  left: -847px;
+  padding: 0 0 10px 0;
+  width: 940px;
+}
+#more-option .menu-listoptions li {
+  padding: 10px 0 5px;
+}
+#price.act .menu-listoptions,
+#room.act .menu-listoptions,
+#estate.act .menu-listoptions,
+#type-property.act .menu-listoptions,
+#location.act .menu-listoptions,
+#price.act .menu-listoptions,
+#toilet.act .menu-listoptions,
+#more-option.act .menu-listoptions {
+  display: block;
+}
+.first-row {
+  border-bottom: 1px solid #ccc;
+  *zoom: 1;
+}
+.first-row:before,
+.first-row:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.first-row:after {
+  clear: both;
+}
+.group {
+  float: left;
+  border-right: 1px solid #ccc;
+  height: 230px;
+  padding: 15px;
+  width: 90px;
+}
+.group:nth-child(2n) {
+  background: #fafbff;
+}
+.group:nth-child(3) {
+  width: 130px;
+}
+.group:nth-child(4) {
+  width: 130px;
+}
+.group:nth-child(6) {
+  width: 130px;
+}
+.group:nth-child(5) {
+  width: 180px;
+}
+.group:nth-child(5) ul {
+  text-indent: 0px;
+}
+.group:last-child {
+  border-right: 0;
+}
+.group input[type=text] {
+  height: 18px;
+  line-height: 18px;
+  margin-bottom: 0;
+  width: 160px;
+}
+/**
+* Fin de Desplegable Filtro de Busqueda Section
+*/
+#result-search {
+  background: #fff;
+  box-shadow: 1px 1px 5px #ccc;
+  padding: 0 0 15px 0;
+  width: 100%;
+}
+#result-search .first-row,
+#result-search .second-row {
+  margin: auto;
+  padding: 10px 0 0 0;
+  width: 928px;
+}
+#result-search .btn-urb {
+  float: left;
+}
+/**
+* tip estilos
+*/
+.textboxlist {
+  background: #fff;
+  border: 1px solid #b8b8b8;
+  border-radius: 4px;
+  box-shadow: -1px 2px 2px rgba(0,0,0,0.20) inset;
+  cursor: text;
+  padding-top: 4px;
+  position: absolute;
+  z-index: 200;
+  top: 100%;
+  width: 380px;
+}
+.textboxlist-bits {
+  overflow: hidden;
+  padding: 3px 10px;
+  position: relative;
+}
+.textboxlist-bits.result-search {
+  float: left;
+  padding: 0;
+  width: 100%;
+}
+.textboxlist-bits.result-search .textboxlist-bit-box {
+  float: left;
+  margin-bottom: 8px;
+}
+.textboxlist-bit-box {
+  background: #ccc;
+  border-radius: 3px;
+  float: left;
+  font-size: 12px;
+  height: 17px;
+  line-height: 17px;
+  margin-bottom: 4px;
+  padding: 4px 30px 4px 5px;
+  position: relative;
+}
+.textboxlist-bit {
+  margin-right: 6px;
+}
+.textboxlist-bit:last-child {
+  margin: 0;
+}
+.textboxlist-bit-box-deletebutton {
+  background: #333 url("routImgicon-portada.png") icoCloseAutocomplete no-repeat;
+  border-radius: 0 3px 3px 0;
+  height: 25px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 25px;
+}
+/**
+* fin tip estilos
+*/
+/**
+* Resultado de Busqueda Section
+* @class Resultado de Busqueda
+* @module portada.css
+*/
+.headtype-results {
+  background: #f2f3f5;
+  border: 1px solid #e8e8e8;
+  margin-bottom: 20px;
+  padding: 10px;
+  *zoom: 1;
+}
+.headtype-results:before,
+.headtype-results:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.headtype-results:after {
+  clear: both;
+}
+.kinds-btns {
+  float: right;
+}
+.kinds-btns a {
+  background: #6f6f6f;
+  background: -moz-linear-gradient(top, #6f6f6f 0%, #6f6f6f 73%, #585858 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #6f6f6f), color-stop(73%, #6f6f6f), color-stop(100%, #585858));
+  background: -webkit-linear-gradient(top, #6f6f6f 0%, #6f6f6f 73%, #585858 100%);
+  background: -o-linear-gradient(top, #6f6f6f 0%, #6f6f6f 73%, #585858 100%);
+  background: -ms-linear-gradient(top, #6f6f6f 0%, #6f6f6f 73%, #585858 100%);
+  background: linear-gradient(to bottom, #6f6f6f 0%, #6f6f6f 73%, #585858 100%);
+  box-shadow: 1px 2px 2px rgba(0,0,0,0.20);
+  color: #fff;
+  border-radius: 4px;
+  float: left;
+  font: 700 14px/18px family3;
+  margin-left: 10px;
+  padding: 5px 15px;
+  text-shadow: 1px 2px 0 rgba(0,0,0,0.25);
+}
+.kinds-btns a:hover,
+.kinds-btns a.act {
+  background: #ff9b2e;
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI1JSIgc3RvcC1jb2xvcj0iI2ZmOWIyZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjkwJSIgc3RvcC1jb2xvcj0iI2ZmN2YxOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlYjc2MTciIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top, #ff9b2e 5%, #eb7617 90%, #eb7617 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #ff9b2e), color-stop(90%, #eb7617), color-stop(100%, #eb7617));
+  background: -webkit-linear-gradient(top, #ff9b2e 5%, #eb7617 90%, #eb7617 100%);
+  background: -o-linear-gradient(top, #ff9b2e 5%, #eb7617 90%, #eb7617 100%);
+  background: -ms-linear-gradient(top, #ff9b2e 5%, #eb7617 90%, #eb7617 100%);
+  background: linear-gradient(to bottom, #ff9b2e 5%, #eb7617 90%, #eb7617 100%);
+  text-decoration: none;
+}
+.kind-ico {
+  background: url("routImgicon-portada.png") searchIconList no-repeat;
+  float: right;
+  height: 18px;
+  margin-left: 8px;
+  width: 18px;
+}
+.kind-ico.kgallery {
+  background-position: searchIconGallery;
+}
+.kind-ico.kmap {
+  background-position: searchIconMap;
+  width: 14px;
+}
+.order-select {
+  float: left;
+}
+.order-select label {
+  color: #000;
+  float: left;
+  font-size: 14px;
+  line-height: 28px;
+}
+.order-select .controls {
+  float: left;
+  margin-left: 10px;
+}
+.order-select select {
+  font-size: 13px;
+  height: 28px;
+  width: 140px;
+}
+.order-select select option {
+  background: #fff;
+  border-bottom: 1px solid #e8e8e8;
+  font: 12px/13px family1;
+  padding: 3px;
+}
+.baner-search {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.results-list {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  margin-bottom: 20px;
+}
+.head-results-list {
+  background: #f2f3f5;
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+.head-results-list h2 {
+  background: #8bc53f;
+  color: #fff;
+  display: table-cell;
+  font: 400 13px/15px family1;
+  margin: 0;
+  padding: 6px 15px;
+  position: relative;
+  vertical-align: middle;
+  width: 370px;
+}
+.head-results-list h2.rs-beach {
+  background: #1ba1e1;
+}
+.head-results-list h2.rs-land {
+  background: #82592b;
+}
+.head-results-list h2.rs-tourist {
+  background: #00aba9;
+}
+.head-results-list h2.rs-project {
+  background: #608829;
+}
+.head-results-list h2 a {
+  color: #fff;
+}
+.side-price {
+  display: table-cell;
+  padding: 10px 15px;
+  position: relative;
+  vertical-align: middle;
+  width: 350px;
+}
+.side-price p {
+  color: #000;
+  float: left;
+  line-height: 15px;
+  margin: 0;
+  text-align: right;
+  width: 320px;
+}
+.firstprice {
+  color: #c00;
+  font-size: 16px;
+  font-weight: 700;
+}
+.secondprice {
+  color: #666;
+}
+.star-fvrte {
+  background: url("routImgicon-portada.png") inmuebleIconFavorite no-repeat;
+  float: right;
+  font-size: 0;
+  height: 18px;
+  margin-left: 10px;
+  width: 18px;
+}
+.star-fvrte:hover {
+  background-position: inmuebleIconHoverFavorite;
+}
+.dtl-ads {
+  float: left;
+  margin: 10px 0 0 20px;
+  width: 360px;
+}
+.dtl-ads dl {
+  float: left;
+  margin: 0;
+  width: 180px;
+}
+.dtl-ads dl dt {
+  color: #666;
+  font-family: family2;
+  float: left;
+  padding: 5px 0;
+}
+.dtl-ads dl dd {
+  color: #000;
+  font-family: family2;
+  margin-left: 110px;
+  padding: 5px 0;
+}
+.dtl-ads.type-projects dl {
+  margin: 0;
+  width: 320px;
+}
+.dtl-ads.type-projects dl dt {
+  width: 140px;
+}
+.dtl-ads.type-projects dl dd {
+  margin-left: 140px;
+}
+.imglogo-klist {
+  float: left;
+  margin: 10px 0 0 20px;
+  width: 140px;
+}
+.result-printed {
+  background: url("routImgicon-portada.png") resultIcoImpreso no-repeat;
+  height: 60px;
+  float: left;
+  font-size: 0;
+  margin: 15px 25px 15px 15px;
+  width: 50px;
+}
+.rslt-printedinfo {
+  float: left;
+  margin-top: 15px;
+  position: relative;
+  width: 675px;
+}
+.rslt-printedinfo h2 {
+  color: #5f8526;
+  font: 400 13px/15px family1;
+  margin: 10px 60px 10px 0;
+}
+.rslt-printedinfo p {
+  line-height: 14px;
+}
+.rslt-printedinfo .star-fvrte {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}
+.klist-foot {
+  position: relative;
+}
+.btns-goinfo {
+  background: #f2f3f5;
+  padding: 5px 0;
+  *zoom: 1;
+}
+.btns-goinfo:before,
+.btns-goinfo:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.btns-goinfo:after {
+  clear: both;
+}
+.btns-goinfo a {
+  background: url("routImgicon-layout.png") icoSeemore no-repeat;
+  float: right;
+  font-size: 11px;
+  line-height: 18px;
+  margin-right: 15px;
+  padding-left: 25px;
+}
+.btns-goinfo a:hover {
+  background-position: icoSeemoreHover;
+}
+.btns-goinfo a.gocontact {
+  background-position: icoContactar;
+  height: 16px;
+}
+.btns-goinfo a.gocontact:hover {
+  background-position: icoContactarHover;
+}
+.btn-seeProjects {
+  bottom: -5px;
+  left: 0;
+  position: absolute;
+  z-index: 1;
+}
+.btn-seeProjects a {
+  background: #6f6f6f;
+  background: -moz-linear-gradient(top, #6f6f6f 0%, #6f6f6f 73%, #585858 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #6f6f6f), color-stop(73%, #6f6f6f), color-stop(100%, #585858));
+  background: -webkit-linear-gradient(top, #6f6f6f 0%, #6f6f6f 73%, #585858 100%);
+  background: -o-linear-gradient(top, #6f6f6f 0%, #6f6f6f 73%, #585858 100%);
+  background: -ms-linear-gradient(top, #6f6f6f 0%, #6f6f6f 73%, #585858 100%);
+  background: linear-gradient(to bottom, #6f6f6f 0%, #6f6f6f 73%, #585858 100%);
+  color: #fff;
+  border-radius: 0 0 4px 4px;
+  display: block;
+  font: 400 13px/33px family1;
+  text-align: center;
+  text-shadow: 1px 2px 0 rgba(0,0,0,0.25);
+  width: 540px;
+}
+.btn-seeProjects a:hover {
+  background: #585858;
+  background: -moz-linear-gradient(top, #585858 0%, #585858 27%, #6f6f6f 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #585858), color-stop(27%, #585858), color-stop(100%, #6f6f6f));
+  background: -webkit-linear-gradient(top, #585858 0%, #585858 27%, #6f6f6f 100%);
+  background: -o-linear-gradient(top, #585858 0%, #585858 27%, #6f6f6f 100%);
+  background: -ms-linear-gradient(top, #585858 0%, #585858 27%, #6f6f6f 100%);
+  background: linear-gradient(to bottom, #585858 0%, #585858 27%, #6f6f6f 100%);
+  text-decoration: none;
+}
+/**
+* Resultado de Busqueda Vista Galeria Section
+* @class Resultado de Busqueda Vista Galeria 
+* @module portada.css
+*/
+.kind-gallery {
+  *zoom: 1;
+}
+.kind-gallery:before,
+.kind-gallery:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.kind-gallery:after {
+  clear: both;
+}
+.kind-gallery .results-list {
+  float: left;
+  height: 379px;
+  margin: 0 0 20px 27px;
+  position: relative;
+  width: 240px;
+}
+.kind-gallery .results-list:first-child {
+  margin-left: 0;
+}
+.kind-gallery .results-list:nth-child(3n+1) {
+  margin-left: 0;
+}
+.kind-gallery .results-list.twoprinted {
+  background: none;
+  border: 0;
+  height: 381px;
+}
+.kind-gallery .results-list .klist-foot {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.kind-gallery .head-results-list {
+  height: 42px;
+  position: relative;
+}
+.kind-gallery .head-results-list h2 {
+  display: table-cell;
+  height: 42px;
+  margin: 0;
+  padding: 0 30px 0 10px;
+  position: relative;
+  vertical-align: middle;
+  width: 200px;
+}
+.kind-gallery .head-results-list .star-fvrte {
+  position: absolute;
+  right: 10px;
+  top: 9px;
+  z-index: 2;
+}
+.kind-gallery .grids-3 {
+  width: 240px;
+}
+.kind-gallery .side-price {
+  float: left;
+  padding: 10px 10px;
+  width: 220px;
+}
+.kind-gallery .side-price p {
+  float: none;
+  line-height: 14px;
+  text-align: left;
+  width: 220px;
+}
+.kind-gallery .dtl-ads {
+  float: left;
+  height: 138px;
+  margin: 0 0 0 10px;
+  width: 220px;
+}
+.kind-gallery .dtl-ads p {
+  line-height: 14px;
+  margin-bottom: 3px;
+}
+.kind-gallery .dtl-ads span {
+  color: #666;
+  display: block;
+  line-height: 13px;
+  padding-bottom: 10px;
+}
+.kind-gallery .dtl-ads dl {
+  padding-bottom: 20px;
+  width: 220px;
+  *zoom: 1;
+}
+.kind-gallery .dtl-ads dl:before,
+.kind-gallery .dtl-ads dl:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.kind-gallery .dtl-ads dl:after {
+  clear: both;
+}
+.kind-gallery .dtl-ads dl dt {
+  width: 85px;
+}
+.kind-gallery .dtl-ads dl dd {
+  margin-left: 85px;
+}
+.kind-gallery .imglogo-klist {
+  float: none;
+  margin: 0;
+  position: absolute;
+  right: 10px;
+  bottom: 40px;
+  width: 60px;
+  z-index: 1;
+}
+.kind-gallery .btns-goinfo a {
+  margin-right: 22px;
+}
+.adsprinted {
+  background: #f2f3f5;
+  border: 1px solid #e8e8e8;
+  height: 168px;
+  margin-top: 20px;
+  padding-top: 10px;
+  position: relative;
+  width: 240px;
+}
+.adsprinted:first-child {
+  margin-top: 0;
+}
+.adsprinted .star-fvrte {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 2;
+}
+.adsprinted .result-printed {
+  display: block;
+  float: none;
+  margin: 0 auto;
+  width: 50px;
+}
+.adsprinted .rslt-printedinfo {
+  float: none;
+  margin: 0 0 9px 10px;
+  position: relative;
+  width: 220px;
+}
+.adsprinted .rslt-printedinfo h2 {
+  height: 16px;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+.adsprinted .rslt-printedinfo p {
+  height: 40px;
+  margin: 0;
+  overflow: hidden;
+}
+/**
+* Resultado de Busqueda Vista Mapa Section
+* @class Resultado de Busqueda Vista Mapa 
+* @module portada.css
+*/
+.kind-map .sec-property {
+  margin-bottom: 10px;
+}
+.kind-map .map-places label {
+  width: 230px;
+}
+.kind-map .map-places li {
+  margin-left: 34px;
+}
+.kind-map .map-places li:nth-child(3n+1) {
+  margin-left: 0;
+}
+.srch-map {
+  position: relative;
+}
+.srch-map .kind-gallery {
+  position: absolute;
+  z-index: 1;
+  right: 10px;
+  top: 10px;
+}
+.srch-map .kind-gallery .results-list {
+  border: 8px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px #333;
+}
+/**
+* Estilos generales Section
+* @class Estilos generales 
+* @module portada.css
+*/
+.sec-property {
+  margin-bottom: 30px;
+}
+.sec-property:last-child {
+  margin-bottom: 0;
+}
+.sec-property .order-select {
+  margin-bottom: 10px;
+}
+.sec-property .order-select label {
+  font-size: 12px;
+}
+.district {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 0 0 4px 4px;
+}
+.district .btn-urb {
+  border-radius: 0 0 4px 4px;
+  display: block;
+  padding: 8px 0;
+  text-align: center;
+}
+.district .img {
+  float: left;
+  width: 220px;
+}
+.district .text {
+  float: left;
+  line-height: 15px;
+  margin: 10px 0 0 20px;
+  width: 440px;
+}
+.district .text.wplus {
+  width: 520px;
+}

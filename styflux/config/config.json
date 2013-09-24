@@ -1,0 +1,42 @@
+{
+	"compile":{
+		"ext":".styl",
+		"cmd":"stylus -c",
+		"cmdr":"-o",
+		"route":"../css"
+	},
+	"layouts":{
+		"active":true,
+		"path":"./layouts",
+		"compile":{
+			"layout.styl":{
+				"helpers":{
+					"fonts":"fonts.styl",
+					"reset":"reset.styl",
+					"resources":["resources.styl"],
+					"content":"content.styl",
+					"grids":"grids.styl",
+					"buttons":"buttons.styl",
+					"forms":"forms.styl",
+					"table":"table.styl",
+					"plugins":"plugins.styl",
+					"hacks":"[@ult]hacks.styl"
+				}
+			}
+		}
+	},
+	"views":{
+		"path":"./views",
+		"pathCompile":"./views"
+	},
+	"vars":{
+		"styfluxFonts":"[@url]fonts/",
+		"routImg":"[@url]../img/",
+		"family1":"'lucidaRegular',Arial,sans-serif",
+		"family2":"'Trebuchet MS',Arial,sans-serif",
+		"family3":"Arial,sans-serif",
+		"IconInfview":"-412px -288px"
+	},
+	"ignore":{
+	}
+}

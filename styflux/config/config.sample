@@ -1,0 +1,42 @@
+{
+	/* Parametros para compilar */
+	"compile":{
+		"ext":".styl", //Extension de los archivos a compilar
+		"cmd":"stylus -c" //Comando a compilar
+	},
+	/* Rutas para los layouts */
+	"layouts":{
+		"active":true, //Activar layouts (Acepta valores true or false)
+		"path":"./layouts", //Ruta de los layouts
+		"compile":{  //Dependencias de los archivos a compilar
+			"layout.styl":{  //Archivo a compilar
+				"helpers":{  //Añadiendo Helpers
+					"fonts":"fonts.styl",
+					"reset":"reset.styl",
+					"content":"content.styl",
+					"grids":"grids.styl",
+					"buttons":"buttons.styl",
+					"forms":"forms.styl",
+					"resources":"resources.styl",
+					"hacks":"[@ult]hacks.styl"
+				},
+				"includes":{ //Añadiendo includes
+					"render":["[@pp]header.styl","[@pp]footer.styl"]
+				}
+			}
+		}
+	},
+	/* Rutas para las vistas */
+	"views":{
+		"path":"./views",  //Ruta de las vistas
+		"pathCompile":"./views" //Ruta del destino a compilar
+	},
+	"vars":{ //Variables Globales
+		"styfluxFonts":"../fonts/",
+		"family1":"'lucidaRegular',Arial,sans-serif",
+		"family2":"'Trebuchet MS',Arial,sans-serif"
+	},
+	"ignore":{ //Archivos a ignorar
+		"layouts":["render"]
+	}
+}

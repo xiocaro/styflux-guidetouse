@@ -1,0 +1,20 @@
+{
+	"compile":{
+		"ext":".styl",
+		"cmd":"stylus -c"
+	},
+	"layouts":{
+		"active":true,
+		"path":"./layouts",
+		"compile":{
+		}
+	},
+	"views":{
+		"path":"./views",
+		"pathCompile":"./views"
+	},
+	"vars":{
+	},
+	"ignore":{
+	}
+}

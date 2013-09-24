@@ -1,0 +1,300 @@
+/**
+* Table Section
+* @class Table
+* @module table.css
+*/
+.tbl-admin
+	border 1px solid #E8E8E8
+	margin-bottom 10px
+	&.vtop
+		td
+			padding 15px 5px
+			vertical-align top
+		.tdAcc2, .tdAcc3
+			a
+				margin-bottom 5px
+	.tdStadictics
+		text-align left
+		padding-left 15px
+	th
+		background-color #F7E19F
+		color #333
+		font-family family1
+		font-size 12px
+		font-weight 400
+		line-height 30px
+		padding 0 5px
+		text-align center
+	td
+		border-top 1px solid #ccc
+		font-family family2
+		font-size 12px
+		line-height 1.4
+		padding 10px 5px
+		text-align center
+		.btn-gray
+			margin-left 20px
+		.control
+			padding 10px 0
+	tr
+		background #FAFBFE
+		&:first-child
+			td
+				border none
+		&.act
+			background #f5fbee
+		&.noborder
+			td
+				border-top 0
+	h3
+		font 700 12px/13px family1
+		margin 0 0 6px
+.tbl-striped
+	margin-top 20px
+	tr:nth-child(2n+1)
+		background #E8E8E8
+	td
+		border-top 0px solid #ccc
+/**
+* Table Proyectos Section
+* @class Table Proyectos
+* @module table.css
+*/
+.admproject
+	background #e8e8e8
+	a
+		font-size 12px
+	tr
+		&:last-child
+			td
+				border-bottom 0
+		&:hover
+			td
+				background #eeeded
+	td
+		border-bottom 1px solid #ccc
+		font-size 11px
+		line-height 13px
+		padding 10px
+		text-align center
+		&.twtit
+			text-align left
+			width 250px
+/**
+@module table.css
+@submodule Sizes: Tamaños de los campos de las tablas
+*/
+/* Columna con imagenes */
+.tdImgAds
+	width 160px
+	img
+		display block
+		height 90px
+		width 160px
+/* Columna con ordenamiento numerico*/
+.tdOrd
+	width 28px
+/* Columna tipo de paquete */
+.tdTypPacket
+	width 142px
+/* Columna fecha de creacion */
+.tdDateCreat
+	width 158px
+/* Caducidad */
+.tdExpire
+	width 100px
+/* Registro */
+.tdRegister
+	width 142px
+/* Columna RUC*/
+.tdRuc
+	width 136px
+/*Columna de checks*/
+.tdCheck
+	width 15px
+/*Frecuencia*/
+.tdFrequence
+	width 136px
+/*Columna de avisos */
+td.tdAds,.twAdsagent
+	text-align left !important
+/* Columna Baños */
+.tdBath
+	width 46px
+/* Columna Dormitorios */
+.tdRooms
+	width 78px
+/* Columna Area */
+.tdArea
+	width 80px
+/* Columna Precio */
+.tdPrice
+	width 112px
+/* Columna Telefono-Celular*/
+.tdTelf
+	width 104px
+/* Columna con 5 acciones */
+.tdAcc5
+	width 150px
+/*Columna con 4 acciones*/
+.tdAcc4
+	width 118px
+/*Columna con 3 acciones*/
+.tdAcc3
+	width 98px
+	&.vt
+		a
+			margin-bottom 5px
+/*Columna con 2 acciones*/
+.tdAcc2
+	width 60px
+/*Paquetes*/
+.tdPacks
+	width 120px
+/*Fecha Inicio - Fin*/
+.tdDates
+	width 110px
+/*Importe*/
+.tdAmount
+	width 90px
+/*Metodo de Pago*/
+.tdKind
+	width 120px
+/*Estado*/
+.tdState
+	width 140px
+/*Doc Pago*/
+.tdPayment
+	width 110px
+/*Tipo de Inmueble*/
+.tdkindProperty
+	width 130px
+/*Nombre*/
+.tdNameProperty
+	width 230px
+/*Distrito*/
+.tdDistrict
+	width 170px
+/*Tipo de Operacion*/
+.tdOpe
+	width 150px
+/* Contacto Precio */
+.tdPriceLarge
+	width 130px
+/* Estadisticas */
+.tdStadictics
+	width 590px
+.tdAllDays
+	width 130px
+/* Agente paquetes */
+.tdMypacks
+	width 160px
+.tdDate
+	width 150px
+.tdDateacq
+	width 310px
+.tdAdpacks
+	width 140px
+.tdStatepack
+	width 120px
+.twAdsagent
+	width 400px
+.twRegister
+	width 190px
+/*Listados de Inmuebles*/
+.td-inmName
+	text-align left !important
+	width 220px
+	&.tit
+		text-align center !important
+.td-inmStatus
+	width 90px
+.td-inmPermiss
+	width 150px
+.td-inmDate
+	width 70px
+.td-inmInfo
+	width 200px
+.td-inmType
+	width 90px
+.td-inmOpe
+	width 100px
+.td-inmAddress
+	text-align left !important
+	width 120px
+	&.tit
+		text-align center !important
+.td-inmPrice
+	width 110px
+.td-inmOwner
+	text-align left !important
+	width 245px
+	&.tit
+		text-align center !important
+	ul
+		float left
+		width 180px
+		li
+			line-height 14px
+			margin 0
+			padding 2px
+/*Adicionales*/
+.tw30
+	width 30px
+.tw60
+	width 60px
+.tw140
+	width 140px
+	p
+		margin-bottom 0
+		text-align left
+.tw120
+	width 120px
+	&.agnts
+		p
+			color #608828
+			line-height 14px
+			margin-bottom 0
+			padding 2px 0 2px 5px
+			text-align left
+.tw238
+	width 238px
+.tw211
+	width 211px
+.tw225
+	width 225px
+	p
+		color #666
+		font 11px/12px family1
+		margin-bottom 6px
+.tw300
+	width 300px
+	p
+		color #666
+		font 11px/12px family1
+		margin-bottom 6px
+.tw506
+	width 506px
+.tw236
+	width 236px
+.tw250
+	text-align left !important
+	width 250px
+.tw406
+	width 406px
+.tw160
+	width 160px
+.tw198
+	width 198px
+.tw281
+	width 281px
+.tw468
+	width 468px
+.tw346
+	width 346px
+	p
+		color #666
+		font 11px/12px family1
+		margin-bottom 6px
+.tw90
+	width 90px
