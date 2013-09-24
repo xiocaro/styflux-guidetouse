@@ -12,14 +12,14 @@
 			"layout.styl":{
 				"helpers":{
 					"fonts":"fonts.styl",
-					"reset":"reset.styl",
-					"resources":["resources.styl"],
 					"content":"content.styl",
+					"reset":"reset.styl",
 					"grids":"grids.styl",
 					"buttons":"buttons.styl",
 					"forms":"forms.styl",
 					"table":"table.styl",
 					"plugins":"plugins.styl",
+					"resources":["resources.styl"],
 					"hacks":"[@ult]hacks.styl"
 				}
 			}
@@ -33,9 +33,9 @@
 		"styfluxFonts":"[@url]fonts/",
 		"routImg":"[@url]../img/",
 		"family1":"'lucidaRegular',Arial,sans-serif",
-		"family2":"'Trebuchet MS',Arial,sans-serif",
+		"family2":"'abrazRegular',Arial,sans-serif",
 		"family3":"Arial,sans-serif",
-		"IconInfview":"-412px -288px"
+		"Styflux":"17px 50%"
 	},
 	"ignore":{
 	}
