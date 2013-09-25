@@ -4,7 +4,7 @@
 .row:before,.row:after{display:table;content:"";line-height:0}
 .row:after{clear:both}
 .side-left{border-right:1px dashed #60c8d1;float:left;height:100%;padding-right:10px;position:fixed;top:0}
-.content{margin:30px 30px 0 370px}
+.content{margin:30px 30px 0 360px}
 article,aside,footer,header,nav,section{display:block}
 html{height:100%;font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;padding:0;margin:0}
 a:focus{outline:thin dotted #333;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}
@@ -624,7 +624,7 @@ em.errorie{font-size:10px;padding:5px;background-color:#000;color:#fff;max-width
 .loader{background:url("../img/opacity.png") repeat;-webkit-border-radius:10px;-moz-border-radius:10px;-ms-border-radius:10px;-o-border-radius:10px;border-radius:10px;height:100%;left:0;position:absolute;top:0;width:100%;}
 .loader.fix{background:#fff}
 .loader span{background:url("../img/loader.gif") no-repeat;display:block;height:20px;left:50%;margin:-10px 0 0 -10px;position:absolute;top:50%;width:20px}
-.menu-vertical{background:#f7f7f9;float:left;height:100%;margin-left:180px;position:fixed;top:0;width:160px;}
+.menu-vertical{background:#f7f7f9;float:left;height:100%;margin-left:180px;position:fixed;top:0;width:150px;}
 .menu-vertical ul{padding:15px;}
 .menu-vertical ul li{border-bottom:1px solid #fff;border-top:1px solid #e1e1e8;}
 .menu-vertical ul li:first-child{border-top:0}
