@@ -1,8 +1,71 @@
 include _head.jade
 body
-	.row
-		.side-left
-			h1 STYFLUX 
-		#wrapper
-			h2 CSS Styleguide
-			p Hola chicos, aca dejo lo que entendi del uso de styflux en un breve documento, espero ser clara y precisa, igual cualquier duda o sugerencia me informan... este es un texto a modificar jojo
+	.side-left
+		h1 STYFLUX
+	.menu-vertical
+		ul
+			li
+				a(href="javascript:;", title="Styflux") Styflux
+			li
+				a(href="javascript:;", title="Config.json") Config.json
+			li
+				a(href="javascript:;", title="Buttons") Buttons
+			li
+				a(href="javascript:;", title="Content") Content
+			li
+				a(href="javascript:;", title="Fonts") Fonts
+			li
+				a(href="javascript:;", title="Forms") Forms
+			li
+				a(href="javascript:;", title="Grids") Grids
+			li
+				a(href="javascript:;", title="Reset") Reset
+			li
+				a(href="javascript:;", title="Resources") Resources
+			li
+				a(href="javascript:;", title="Table") Table
+			li
+				a(href="javascript:;", title="Hacks") Hacks
+			li
+				a(href="javascript:;", title="Plugins") Plugins
+	.content
+		h2 CSS Styleguide
+		p Hola chicos, aca dejo lo que entendi del uso de styflux en un breve documento, espero ser clara y precisa, igual cualquier duda o sugerencia me informan... este es un texto a modificar jojo
+		.box
+			h2 Config.json
+			p Este archivo se ubica en styflux/config , yo podría llamar a este archivo el cerebrito del styflux ya que aquí se declaran las variables entre otras configuraciones para administrar a tu necesidad el Styflux.
+			p 1. <strong>"Compile"</strong> aquí indicamos donde se compilara(renderizara) nuestros estilos:
+			.code-box
+				pre
+					code.html
+						span "compile":{<br>
+						span.pl	"ext":".styl",<br>
+						span.pl	"cmd":"stylus -c",<br>
+						span.pl	"cmdr":"-o",<br>
+						span.pl	"route":"../css" 
+								span.gray &lt;!-- esto varía segun nuestra ubicación de carpeta contenedora de css --&gt;<br>
+						span }
+			p 2. <strong>"Layout"</strong> contiene la suma de los estilos que estan en styflux/view-helpers:
+			.code-box
+				pre
+					code.html
+						span "layouts":{<br>
+							"active":
+							span.purple true,<br>
+							"path":"./layouts",<br>
+							"compile":{<br>
+						span.pl	"layout.styl":{<br>
+						span.pl2 "helpers":{<br>
+						span.pl3 "fonts":"fonts.styl",<br>
+						span.pl3 "content":"content.styl",<br>
+						span.pl3 "reset":"reset.styl",<br>
+						span.pl3 "grids":"grids.styl",<br>
+						span.pl3 "buttons":"buttons.styl",<br>
+						span.pl3 "forms":"forms.styl",<br>
+						span.pl3 "table":"table.styl",<br>
+						span.pl3 "plugins":"plugins.styl",<br>
+						span.pl3 "resources":["resources.styl"],<br>
+						span.pl3 "hacks":"[@ult]hacks.styl"<br>
+						span.pl2 }<br>
+						span.pl }<br>
+						span }

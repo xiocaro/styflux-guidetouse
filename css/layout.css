@@ -1,10 +1,10 @@
 @font-face{font-family:"lucidaRegular";font-style:normal;font-weight:normal;src:url("fonts/lucidaRegular/lucidaRegular-webfont.eot");src:url("fonts/lucidaRegular/lucidaRegular-webfont.eot?#iefix") format('embedded-opentype'),url("fonts/lucidaRegular/lucidaRegular-webfont.woff") format('woff'),url("fonts/lucidaRegular/lucidaRegular-webfont.ttf") format('truetype'),url("fonts/lucidaRegular/lucidaRegular-webfont.svg#lucidaRegular") format('svg')}
 @font-face{font-family:"abrazRegular";font-style:normal;font-weight:normal;src:url("fonts/abrazRegular/abrazRegular-webfont.eot");src:url("fonts/abrazRegular/abrazRegular-webfont.eot?#iefix") format('embedded-opentype'),url("fonts/abrazRegular/abrazRegular-webfont.woff") format('woff'),url("fonts/abrazRegular/abrazRegular-webfont.ttf") format('truetype'),url("fonts/abrazRegular/abrazRegular-webfont.svg#abrazRegular") format('svg')}
-.row{height:100%;*zoom:1;}
+.row{*zoom:1;}
 .row:before,.row:after{display:table;content:"";line-height:0}
 .row:after{clear:both}
-#wrapper{float:left;padding:20px 30px}
-.side-left{border-right:1px dashed #60c8d1;float:left;height:100%;padding-right:10px}
+.side-left{border-right:1px dashed #60c8d1;float:left;height:100%;padding-right:10px;position:fixed;top:0}
+.content{margin:30px 30px 0 370px}
 article,aside,footer,header,nav,section{display:block}
 html{height:100%;font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;padding:0;margin:0}
 a:focus{outline:thin dotted #333;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}
@@ -624,11 +624,20 @@ em.errorie{font-size:10px;padding:5px;background-color:#000;color:#fff;max-width
 .loader{background:url("../img/opacity.png") repeat;-webkit-border-radius:10px;-moz-border-radius:10px;-ms-border-radius:10px;-o-border-radius:10px;border-radius:10px;height:100%;left:0;position:absolute;top:0;width:100%;}
 .loader.fix{background:#fff}
 .loader span{background:url("../img/loader.gif") no-repeat;display:block;height:20px;left:50%;margin:-10px 0 0 -10px;position:absolute;top:50%;width:20px}
-.fix-bg{position:relative;z-index:2}
-.infprint{display:block;}
-.infprint li{color:#c00}
-.infview{display:inline-block;*display:inline;line-height:15px;padding-left:28px;position:relative;vertical-align:top;*zoom:1;}
-.infview span{background:url("../img/icon-layout.png") IconInfview;height:14px;left:0;position:absolute;top:0;width:22px}
+.menu-vertical{background:#f7f7f9;float:left;height:100%;margin-left:180px;position:fixed;top:0;width:160px;}
+.menu-vertical ul{padding:15px;}
+.menu-vertical ul li{border-bottom:1px solid #fff;border-top:1px solid #e1e1e8;}
+.menu-vertical ul li:first-child{border-top:0}
+.menu-vertical ul li:last-child{border-bottom:0}
+.menu-vertical ul a{color:#666;display:block;padding:7px 0;}
+.menu-vertical ul a:hover{color:#60c8d1;text-decoration:none}
+.code-box{background:#000;color:#fff;font-size:14px;line-height:19px;margin-bottom:15px;padding:5px 20px;white-space:pre-wrap}
+pre{white-space:nowrap}
+.gray{color:#828282;font-style:italic}
+.purple{color:#ae81ff}
+.pl{padding-left:30px}
+.pl2{padding-left:60px}
+.pl3{padding-left:90px}
 .btn-vermas{background:#f2f3f5;border:1px solid #e8e8e8;color:#5f8526;display:block;font-weight:700;line-height:40px;outline:0 none !important;text-align:center;}
 .btn-vermas:hover{background:#d7d6d6;color:#5f8526;text-decoration:none}
 .btn-vermas.loading{background:url("../img/loading.gif") center center no-repeat #e8e8e8;text-indent:-9999px}
@@ -1044,11 +1053,11 @@ em.errorie{font-size:10px;padding:5px;background-color:#000;color:#fff;max-width
 .start-projects .grids-4:nth-child(3n){margin-right:0}
 .start-projects.active .grids-4:first-child{float:right;height:1060px}
 .start-projects.active .urb-ads{margin-right:20px !important}
-body{font:12px/1 'lucidaRegular',Arial,sans-serif;height:100%;margin:0}
+body{font:12px/15px 'lucidaRegular',Arial,sans-serif;height:100%;margin:0}
 h1{background:url("../img/icon-set.png") 17px 50% no-repeat #60c8d1;float:left;font-size:0;height:100%;padding:0 20px;width:120px}
-h2{border-bottom:1px solid #ccc;color:#60c8d1;font:400 34px/35px 'abrazRegular',Arial,sans-serif;margin:0 0 18px;padding-bottom:10px}
+h2{border-bottom:1px solid #ccc;color:#60c8d1;font:400 34px/35px 'abrazRegular',Arial,sans-serif;margin:20px 0;padding-bottom:10px}
 ul{list-style:none;margin:0;padding:0}
-p{margin:0 0 14px}
+p{margin:0 0 15px}
 a{color:#5f8626;text-decoration:none;}
 a:hover{text-decoration:underline}
 td,th{vertical-align:middle;word-wrap:break-word}

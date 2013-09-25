@@ -3,33 +3,55 @@
 * @class Resources
 * @module base.css
 */
-
+.menu-vertical
+	background #F7F7F9
+	float left
+	height 100%
+	margin-left 180px
+	position fixed
+	top 0
+	width 160px
+	ul
+		padding 15px
+		li
+			border-bottom 1px solid #fff
+			border-top 1px solid #E1E1E8
+			&:first-child
+				border-top 0
+			&:last-child
+				border-bottom 0
+		a
+			color #666
+			display block
+			padding 7px 0
+			&:hover
+				color #60C8D1
+				text-decoration none
+.code-box
+	background #000
+	color #fff
+	font-size 14px
+	line-height 19px
+	margin-bottom 15px
+	padding 5px 20px
+	white-space pre-wrap
+pre
+	white-space nowrap
+.gray
+	color #828282
+	font-style italic
+.purple
+	color #ae81ff
+.pl
+	padding-left 30px
+.pl2
+	padding-left 60px
+.pl3
+	padding-left 90px
 /**
 @module resources.css
 @submodule Style Libre: Van los estilos libres
 */
-.fix-bg
-	position relative
-	z-index 2
-.infprint
-	display block
-	li
-		color #CC0000
-.infview
-	display inline-block
-	*display inline
-	line-height 15px
-	padding-left 28px
-	position relative
-	vertical-align top
-	*zoom 1
-	span
-		background url(routImg+"icon-layout.png") IconInfview
-		height 14px
-		left 0
-		position absolute
-		top 0
-		width 22px
 .btn-vermas
 	background #F2F3F5
 	border 1px solid #E8E8E8
