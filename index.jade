@@ -100,3 +100,91 @@ body
 						span.pl	"Styflux":"17px 50%" 
 							span.gray &lt;!-- en base a un imagen dentro del icon-set declaramos las posiciones x/y en una variable --&gt;<br>
 						span }
+		.box
+			h2 Forms
+			p Aquí armamos nuestros estilos con nombres convencionales, el objetivo es adaptarlos a todo tipo de formulario que se nos presente, ya sea verticales u horizontal manteniendo nuestra misma estructura html.
+			.code-box
+				pre
+					code.html
+						span form(id="frmRegister", method="post", action="")<br>
+						span.pl	.form-group<br>
+						span.pl2 label(for="txtName")<br>
+						span.pl3 span.required * <br>
+						span.pl3 | Email<br>
+						span.pl2 input(type="text", class="medium", id="txtName", placeholder="Nombre")
+		.demo
+			form(id="frmRegister", method="post", action="")
+				.form-group
+					label(for="txtName")
+						span.required * 
+						| Nombres
+					input(type="text", class="medium", id="txtName", placeholder="Nombre")
+				.form-group
+					label(for="txtEmail")
+						span.required * 
+						| Email
+					input(type="text", class="medium", id="txtEmail", placeholder="Email")
+				.form-group
+					label(for="txtPassword")
+						span.required * 
+						| Contraseña
+					input(type="password", class="medium", id="txtPassword", placeholder="Contraseña")
+				.form-group
+					label(for="txtDocument") Documento
+					.form-group-inline
+						.form-control
+							select(id="selIdentity", class="small")
+								option Seleccione
+								option DNI
+								option Pasaporte
+						.form-control
+							input(type="text", class="small", id="txtDocument", placeholder="Número de Doc.")
+				.form-group
+					label(for="txaMessage")
+						span.required * 
+						| Mensaje
+					textarea(type="textarea", class="medium", id="txaMessage", placeholder="Escribir aquí su mensaje")
+				.form-group
+					label.checkbox
+						input(type="checkbox")
+						| Quiero recibir boletin
+				button(type="submit", class="btn", title="Enviar") Enviar
+		.demo
+			form(id="frmRegister", class="form-horizontal", method="post", action="")
+				.form-group
+					label(for="txtName")
+						span.required * 
+						| Nombres
+					input(type="text", class="medium", id="txtName", placeholder="Nombre")
+				.form-group
+					label(for="txtEmail")
+						span.required * 
+						| Email
+					input(type="text", class="medium", id="txtEmail", placeholder="Email")
+				.form-group
+					label(for="txtPassword")
+						span.required * 
+						| Contraseña
+					input(type="password", class="medium", id="txtPassword", placeholder="Contraseña")
+				.form-group
+					label(for="txtDocument") Documento
+					.form-group-inline
+						.form-control
+							select(id="selIdentity", class="small")
+								option Seleccione
+								option DNI
+								option Pasaporte
+						.form-control
+							input(type="text", class="small", id="txtDocument", placeholder="Número de Doc.")
+				.form-group
+					label(for="txaMessage")
+						span.required * 
+						| Mensaje
+					textarea(type="textarea", class="medium", id="txaMessage", placeholder="Escribir aquí su mensaje")
+				.form-group
+					label.checkbox
+						input(type="checkbox")
+						| Quiero recibir boletin
+				button(type="submit", class="btn", title="Enviar") Enviar
+
+

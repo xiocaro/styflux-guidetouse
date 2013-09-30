@@ -3,6 +3,43 @@
 * @class Forms
 * @module base.css
 */
+.form-group
+	margin-bottom 15px
+	label
+		display block
+		padding-bottom 5px
+.form-group-inline
+	zoom 1
+	&:before,&:after
+		display table
+		content ""
+		line-height 0
+	&:after
+		clear both
+	.form-control
+		float left
+		margin-left 20px
+		&:first-child
+			margin-left 0
+.required
+	color #CC0000
+.checkbox
+	label
+		display block
+		padding-bottom 0
+	input
+		display inline-block
+		margin-right 5px
+		vertical-align middle
+/**
+@module tamaños
+@submodule Components: Estilos para los tamaños
+*/
+.small
+	width 140px
+.medium
+	width 300px
+
 /**
 @module resources.css
 @submodule Components: Estilos para los componentes del formulario
