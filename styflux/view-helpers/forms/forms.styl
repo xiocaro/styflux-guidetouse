@@ -3,12 +3,14 @@
 * @class Forms
 * @module base.css
 */
-.form-group
+.frm-default
+	width 330px
+.frm-group
 	margin-bottom 15px
 	label
 		display block
 		padding-bottom 5px
-.form-group-inline
+.frm-group-inline
 	zoom 1
 	&:before,&:after
 		display table
@@ -16,7 +18,7 @@
 		line-height 0
 	&:after
 		clear both
-	.form-control
+	.frm-control
 		float left
 		margin-left 20px
 		&:first-child
@@ -24,13 +26,30 @@
 .required
 	color #CC0000
 .checkbox
+	margin-bottom 15px
 	label
 		display block
 		padding-bottom 0
 	input
 		display inline-block
-		margin-right 5px
+		margin-right 7px
 		vertical-align middle
+.frm-horizontal
+	.frm-group
+		zoom 1
+		&:before,&:after
+			display table
+			content ""
+			line-height 0
+		&:after
+			clear both
+		label
+			float left
+			line-height 35px
+			padding-bottom 0
+			width 150px
+		input
+			float left
 /**
 @module tamaños
 @submodule Components: Estilos para los tamaños
