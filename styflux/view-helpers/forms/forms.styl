@@ -50,6 +50,38 @@
 			width 150px
 		input
 			float left
+.frm-inline
+	margin-bottom 0
+	zoom 1
+	&:before,&:after
+		display table
+		content ""
+		line-height 0
+	&:after
+		clear both
+	.frm-group
+		float left
+		margin 0 0 0 10px
+		&:first-child
+			margin-left 0
+		label
+			border 0 none
+			clip rect(0px, 0px, 0px, 0px)
+			height 1px
+			margin -1px
+			overflow hidden
+			padding 0
+			position absolute
+			width 1px
+	.frm-group-inline
+		.frm-control
+			margin-left 10px
+			&:first-child
+				margin-left 0
+	.small
+		width 110px
+	.medium
+		width 180px
 /**
 @module tamaños
 @submodule Components: Estilos para los tamaños

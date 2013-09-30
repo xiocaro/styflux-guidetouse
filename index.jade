@@ -119,8 +119,13 @@ body
 							|, 
 							span.green action
 							|=
+							span.yellow "" 
+							|, 
+							span.green class
+							|=
 							span.yellow ""
 							|)
+							span.gray &lt;!-- el nombre de la clase varía según lo requerido --&gt;
 						span.pl	
 							span.yellow .frm-group 
 							span.gray &lt;!-- clases asignadas para grupo de label e input --&gt;
@@ -263,12 +268,74 @@ body
 							span.green class
 							|=
 							span.yellow "small"
-							|,
+							|, 
 							span.green id
 							|=
 							span.yellow "txtDocument"
 							|)
+						span.pl
+							span.yellow .frm-group
+						span.pl2
+							span.fucsia label
+							|(
+							span.green for
+							|=
+							span.yellow "txaMessage"
+							|)
+						span.pl2
+							span.fucsia textarea
+							|(
+							span.green type
+							|=
+							span.yellow "textarea"
+							|, 
+							span.green class
+							|=
+							span.yellow "medium"
+							|, 
+							span.green id
+							|=
+							span.yellow "txaMessage"
+							|, 
+							span.green placeholder
+							|=
+							span.yellow "Escribir aquí su mensaje"
+							|)
+						span.pl
+							span.yellow .checkbox
+						span.pl2
+							span.fucsia label
+						span.pl3
+							span.fucsia input
+							|(
+							span.green type
+							|=
+							span.yellow "checkbox"
+							|)
+						span.pl3 | Quiero recibir boletin
+						span.pl
+							span.yellow .frm-group
+						span.pl2
+							span.fucsia button
+							|(
+							span.green type
+							|=
+							span.yellow "submit"
+							|, 
+							span.green id
+							|=
+							span.yellow "sbmSend"
+							|, 
+							span.green class
+							|=
+							span.yellow "btn"
+							|, 
+							span.green title
+							|=
+							span.yellow "Enviar"
+							|)
 		.demo
+			p Este es un formulario básico.
 			form(id="frmRegister", method="post", action="", class="frm-default")
 				.frm-group
 					label(for="txtName")
@@ -304,8 +371,14 @@ body
 					label
 						input(type="checkbox")
 						| Quiero recibir boletin
-				button(type="submit", class="btn", title="Enviar") Enviar
+				.frm-group
+					button(type="submit", id="sbmSend", class="btn", title="Enviar") Enviar
 		.demo
+			p Si queremos otra estructura visual de formulario solo le agregaremos a la etiqueta 
+				span.fucsia form 
+				|class=
+				span.bold "frm-horizontal"
+				|, sin cambiar la estructura html.
 			form(id="frmRegister", class="frm-horizontal", method="post", action="")
 				.frm-group
 					label(for="txtName")
@@ -341,6 +414,41 @@ body
 					label
 						input(type="checkbox")
 						| Quiero recibir boletin
-				button(type="submit", class="btn", title="Enviar") Enviar
+				.frm-group
+					button(type="submit", id="sbmSend", class="btn", title="Enviar") Enviar
+		.demo
+			p En la etiqueta 
+				span.fucsia form 
+				| agregamos class=
+				span.bold "frm-inline"
+				|.
+			form(id="frmRegister", class="frm-inline", method="post", action="")
+				.frm-group
+					label(for="txtName")
+						span.required * 
+						| Nombres
+					input(type="text", class="medium", id="txtName", placeholder="Nombres")
+				.frm-group
+					label(for="txtEmail")
+						span.required * 
+						| Email
+					input(type="text", class="medium", id="txtEmail", placeholder="Email")
+				.frm-group
+					label(for="txtPassword")
+						span.required * 
+						| Contraseña
+					input(type="password", class="medium", id="txtPassword", placeholder="Contraseña")
+				.frm-group
+					label Documento
+					.frm-group-inline
+						.frm-control
+							select(id="selIdentity", class="small")
+								option Seleccione
+								option DNI
+								option Pasaporte
+						.frm-control
+							input(type="text", class="small", id="txtDocument", placeholder="Número de Doc.")
+				.frm-group
+					button(type="submit", id="sbmSend", class="btn", title="Enviar") Enviar
 
 
