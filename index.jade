@@ -44,7 +44,7 @@ body
 						span.pl	"cmd":"stylus -c",
 						span.pl	"cmdr":"-o",
 						span.pl	"route":"../css" 
-								span.gray &lt;!-- esto varía segun nuestra ubicación de carpeta contenedora de css --&gt;
+								span.gray &#47;&#47; esto varía segun nuestra ubicación de carpeta contenedora de css
 						span }
 			p 2. <strong>"layout"</strong> contiene la suma de los estilos que estan en styflux/view-helpers:
 			.code-box
@@ -58,22 +58,22 @@ body
 						span.pl	"layout.styl":{
 						span.pl2 "helpers":{
 						span.pl3 "fonts":"fonts.styl", 
-							span.gray &lt;!-- ejm: @font-face font_face("lucidaRegular") --&gt;
+							span.gray &#47;&#47; ejm: @font-face font_face("lucidaRegular")
 						span.pl3 "content":"content.styl", 
-							span.gray &lt;!-- principales contenedores como: #wrapper .box .main --&gt;
+							span.gray &#47;&#47; principales contenedores como: #wrapper .box .main
 						span.pl3 "reset":"reset.styl",
 						span.pl3 "grids":"grids.styl", 
-							span.gray &lt;!-- medidas(ancho) recopiladas de nuestro diseño basada en un sistema de grillas --&gt;
+							span.gray &#47;&#47; medidas(ancho) recopiladas de nuestro diseño basada en un sistema de grillas
 						span.pl3 "buttons":"buttons.styl",
 						span.pl3 "forms":"forms.styl", 
-							span.gray &lt;!-- etiquetas, clases, id que usamos para los formularios en general --&gt;
+							span.gray &#47;&#47; etiquetas, clases, id que usamos para los formularios en general
 						span.pl3 "table":"table.styl", 
-							span.gray &lt;!-- clases asignadas a table tr td --&gt;
+							span.gray &#47;&#47; clases asignadas a table tr td
 						span.pl3 "plugins":"plugins.styl",
 						span.pl3 "resources":["resources.styl"], 
-							span.gray &lt;!-- todas las clases reutilizables --&gt;
+							span.gray &#47;&#47; todas las clases reutilizables
 						span.pl3 "hacks":"[@ult]hacks.styl" 
-							span.gray &lt;!-- clases para navegador IE --&gt;
+							span.gray &#47;&#47; clases para navegador IE
 						span.pl2 }
 						span.pl }
 						span }
@@ -91,14 +91,14 @@ body
 					code.html
 						span "vars":{
 						span.pl	"styfluxFonts":"[@url]fonts/", 
-							span.gray &lt;!-- es la ubicación de carpeta contenedora de las fuentes: .eot .svg .woff --&gt;
+							span.gray &#47;&#47; es la ubicación de carpeta contenedora de las fuentes: .eot .svg .woff
 						span.pl	"routImg":"[@url]../img/",
 						span.pl	"family1":"'lucidaRegular',Arial,sans-serif", 
-							span.gray &lt;!-- es recomendable no usar mas de 3 tipos de fuentes en un proyecto --&gt;
+							span.gray &#47;&#47; es recomendable no usar mas de 3 tipos de fuentes en un proyecto
 						span.pl	"family2":"'abrazRegular',Arial,sans-serif",
 						span.pl	"family3":"Arial,sans-serif",
 						span.pl	"Styflux":"17px 50%" 
-							span.gray &lt;!-- en base a un imagen dentro del icon-set declaramos las posiciones x/y en una variable --&gt;
+							span.gray &#47;&#47; en base a un imagen dentro del icon-set declaramos las posiciones x/y en una variable
 						span }
 		.box
 			h2 Forms
@@ -107,7 +107,7 @@ body
 				pre
 					code.html
 						span 
-							span.fucsia frm
+							span.fucsia form
 							|(
 							span.green id
 							|=
@@ -125,10 +125,10 @@ body
 							|=
 							span.yellow ""
 							|)
-							span.gray &lt;!-- el nombre de la clase varía según lo requerido --&gt;
+							span.gray &#47;&#47; el nombre de la clase varía según lo requerido
 						span.pl	
 							span.yellow .frm-group 
-							span.gray &lt;!-- clases asignadas para grupo de label e input --&gt;
+							span.gray &#47;&#47; clases asignadas para grupo de label e input
 						span.pl2
 							span.fucsia label
 							|(
@@ -228,7 +228,7 @@ body
 							)
 						span.pl
 							span.yellow .frm-group 
-							span.gray &lt;!-- clases asignadas para grupo de label, input y select --&gt;
+							span.gray &#47;&#47; clases asignadas para grupo de label, input y select
 						span.pl2
 							span.fucsia label 
 							|Documento

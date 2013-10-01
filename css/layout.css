@@ -664,7 +664,7 @@ em.errorie{font-size:10px;padding:5px;background-color:#000;color:#fff;max-width
 .menu-vertical ul a:hover{color:#60c8d1;text-decoration:none}
 .code-box{background:#000;color:#fff;font-size:15px;font-weight:700;line-height:19px;margin-bottom:15px;padding:5px 20px;white-space:pre-wrap}
 pre{white-space:nowrap}
-.gray{color:#828282;font-style:italic}
+.gray{color:#828282}
 .purple{color:#ae81ff}
 .fucsia{color:#f92672}
 .green{color:#a6e22e}
@@ -843,7 +843,6 @@ pre{white-space:nowrap}
 .mt50{margin-top:50px}
 .ml10{margin-left:10px}
 .w322{width:338px}
-.green{color:#5f8526}
 .ftleft{float:left}
 .ftright{float:right}
 .popup-addfavorite{background:#fff;padding:20px;width:250px;}
